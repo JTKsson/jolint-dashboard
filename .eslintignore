@@ -1,0 +1,12 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore log files
+*.log
+
+# Ignore any specific files or directories you want ESLint to skip
+src/generated/
+dist/
