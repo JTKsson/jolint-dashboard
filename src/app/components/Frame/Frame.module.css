@@ -1,4 +1,57 @@
-.main {
-  background-color: greenyellow;
+.gridContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
+  background-color: lightblue;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftColumn {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.rightColumn {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.oneBox {
+  border: 1px solid black;
+
+}
+
+.frame75 {
+  border: 1px solid black;
+
+}
+
+.frame25 {
+  border: 1px solid black;
+
+}
+
+.frame50 {
+  border: 1px solid black;
+
+}
+
+.frame33 {
+  border: 1px solid black;
+
 }
