@@ -1,23 +1,29 @@
 .gridContainer {
+  background-color: lightgray;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
-  background-color: lightblue;
+  padding: 2rem;
 }
 
-.row1 {
+.rowOne {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-.row2 {
+.rowTwo {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.row3 {
+.rowThree {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.rowTwo,
+.rowThree {
+  margin-top: 1.5rem;
 }
 
 .leftColumn {
@@ -27,31 +33,32 @@
 
 .rightColumn {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
 }
 
-.oneBox {
-  border: 1px solid black;
-
-}
-
-.frame75 {
-  border: 1px solid black;
-
-}
-
-.frame25 {
-  border: 1px solid black;
-
-}
-
-.frame50 {
-  border: 1px solid black;
-
-}
-
+.oneBox,
+.frame25,
+.frame75,
+.frame50,
 .frame33 {
-  border: 1px solid black;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
 
+@media (max-width: 768px) {
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,   
+  .leftColumn,
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
