@@ -1,4 +1,4 @@
-import styles from './Frame.module.css'
+import styles from './frame.module.css'
 
 const GridItem = ({ className, children }) => (
   <div className={className}>{children}</div>
