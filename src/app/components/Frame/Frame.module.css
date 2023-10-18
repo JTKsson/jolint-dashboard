@@ -2,7 +2,6 @@
   background-color: lightgray;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 100vh;
   padding: 2rem;
 }
 
@@ -46,11 +45,11 @@
 }
 
 .title {
-  display: flex;
   align-items: flex-end;
-  padding-left: 0.5rem;
+  display: flex;
   font-size: larger;
   font-weight: bold;
+  padding-left: 0.5rem;
 }
 
 .frame25,
@@ -74,6 +73,12 @@
   .rightColumn {
     display: grid;
     grid-template-columns: repeat(1, 10fr);
+  }
+
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
     margin: 1rem 0;
   }
 }
