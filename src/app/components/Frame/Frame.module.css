@@ -13,17 +13,14 @@
 
 .rowTwo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5fr 4fr;
+  margin-top: 1.5rem;
 }
 
 .rowThree {
   display: grid;
   grid-template-columns: 1fr 2fr;
-}
-
-.rowTwo,
-.rowThree {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .leftColumn {
@@ -31,17 +28,36 @@
   grid-template-rows: 1fr 1fr;
 }
 
-.rightColumn {
+.leftColumnTrends {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 10fr;
 }
 
-.oneBox,
+.rightColumn {
+  display: grid;
+  grid-template-rows: 1fr 4fr 2fr 4fr;
+  margin-left: 1.2rem;
+}
+
+.rightColumnTop,
+.rightColumnBottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
 .frame25,
 .frame75,
 .frame50,
-.frame33 {
+.frame33,
+.leftBox {
   align-items: center;
   background-color: white;
   border-radius: 30px;
@@ -54,11 +70,10 @@
   .gridContainer,
   .rowOne,
   .rowTwo,
-  .rowThree,   
-  .leftColumn,
+  .rowThree,
   .rightColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+    margin: 1rem 0;
   }
 }
