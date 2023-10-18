@@ -1,8 +1,8 @@
-import styles from './Frame.module.css';
+import styles from './Frame.module.css'
 
 const GridItem = ({ className, children }) => (
   <div className={className}>{children}</div>
-);
+)
 
 export default function Frame() {
   return (
@@ -43,5 +43,5 @@ export default function Frame() {
         </div>
       </div>
     </div>
-  );
+  )
 }

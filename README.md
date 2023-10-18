@@ -18,5 +18,4 @@ ComponentName
   index.jsx ( const ComponentName )
   componentName.module.css
 
-
-The only global file one should edit is to add components/pages to page.js, none else. This will cause a lot of unnecessary conflicts. 
+The only global file one should edit is to add components/pages to page.js, none else. This will cause a lot of unnecessary conflicts.
