@@ -2,3 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
+
+@media (max-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
