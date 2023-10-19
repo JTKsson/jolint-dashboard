@@ -1,5 +1,5 @@
 .gridContainer {
-  background-color: lightgray;
+  background-color: var(--background-color-light);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 2rem;
@@ -47,6 +47,7 @@
 .title {
   align-items: flex-end;
   display: flex;
+  font-family: var(--font-heading);
   font-size: larger;
   font-weight: bold;
   padding-left: 0.5rem;

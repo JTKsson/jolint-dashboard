@@ -1,6 +1,7 @@
 .main {
   flex-direction: column;
   margin: 5rem 2rem;
+  color: var(--text-color-light);
 }
 
 .userContainer {
