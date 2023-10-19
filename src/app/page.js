@@ -6,8 +6,12 @@ export default function Home() {
   return (
     <>
       <div className={styles.main}>
-        <Sidebar />
-        <Frame />
+        <div className={styles.sidebar}>
+          <Sidebar />
+        </div>
+        <div className={styles.frame}>
+          <Frame />
+        </div>
       </div>
     </>
   )

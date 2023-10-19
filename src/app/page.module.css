@@ -1,11 +1,35 @@
 .main {
   display: grid;
-  grid-template-columns: 1fr 5fr;
 }
 
-@media (max-width: 768px) {
+.sidebar {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.frame {
+  margin-top: 4.2rem;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
   .main {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    margin-left: 12.5rem;
+  }
+
+  .sidebar {
+    height: 100%;
+    order: 1;
+    width: 200px;
+  }
+
+  .frame {
+    margin-top: 0;
+    order: 2;
   }
 }
