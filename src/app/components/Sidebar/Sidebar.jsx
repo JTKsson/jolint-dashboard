@@ -8,11 +8,11 @@ export default function Sidebar() {
       </div>
       <div>
         <div>
-          <Image src="" alt="Dashboard icon" width={30} height={30} />
+          <Image src="/images/dashboard-icon.svg" alt="Dashboard icon" width={20} height={20} />
           Dashboard
         </div>
         <div>
-         <Image src="" alt="Settings icon" width={30} height={30} />
+         <Image src="/images/settings-icon.svg" alt="Settings icon" width={20} height={20} />
           Settings
         </div>
       </div>
