@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Space+Grotesk:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  /* Primary background colors */
+  --background-color-dark: #121633;
+  --background-color-light: #D4DDE7;
+  
+  /* Chart colors */
+  --c-green: #4FBB4D;
+  --c-red: #B40D0D;
+  --c-bright-blue: #0025C6;
+  --c-mellow-blue: #9DB8D4;
+  --c-light-blue: #CEDCE9;
+  --c-gray: #9E9898;
+  --c-orange: #EA9248;
+
+  /* Text color */
+  
+  --text-color-dark: black;
+  --text-color-light: white;
+  
+  /* Fonts */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body-copy: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
 }
