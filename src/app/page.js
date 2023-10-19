@@ -5,7 +5,6 @@ export default function Home() {
     <>
       {/* <div>Hello</div> */}
       <Frame />
-      <h1>Hello</h1>
     </>
   )
 }
