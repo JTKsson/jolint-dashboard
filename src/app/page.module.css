@@ -21,6 +21,7 @@
     grid-template-columns: 1fr auto;
     justify-content: center;
     margin-left: 12.5rem;
+    margin-top: 3.2rem;
   }
 
   .sidebar {
