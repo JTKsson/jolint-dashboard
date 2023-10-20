@@ -9,21 +9,21 @@
 :root {
   /* Primary background colors */
   --background-color-dark: #121633;
-  --background-color-light: #D4DDE7;
-  
+  --background-color-light: #d4dde7;
+
   /* Chart colors */
-  --c-green: #4FBB4D;
-  --c-red: #B40D0D;
-  --c-bright-blue: #0025C6;
-  --c-mellow-blue: #9DB8D4;
-  --c-light-blue: #CEDCE9;
-  --c-gray: #9E9898;
-  --c-orange: #EA9248;
+  --c-green: #4fbb4d;
+  --c-red: #b40d0d;
+  --c-bright-blue: #0025c6;
+  --c-mellow-blue: #9db8d4;
+  --c-light-blue: #cedce9;
+  --c-gray: #9e9898;
+  --c-orange: #ea9248;
 
   /* Text colors */
   --text-color-dark: black;
   --text-color-light: white;
-  
+
   /* Fonts */
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body-copy: 'Kumbh Sans', sans-serif;
