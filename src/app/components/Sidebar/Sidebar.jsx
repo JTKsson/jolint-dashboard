@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './sidebar.module.css'
+import UserProfile from '../UserProfile/UserProfile'
 
 export default function Sidebar() {
   return (
     <div className={styles.main}>
       <div className={styles.userContainer}>
-        User profile placeholder container
+        <UserProfile />
       </div>
       <div className={styles.textLabel}>
         <Image
