@@ -1,0 +1,48 @@
+.main {
+  flex-direction: column;
+  margin: 5rem 2rem;
+  color: var(--text-color-light);
+}
+
+.userContainer {
+  margin-bottom: 6rem;
+}
+
+.main > div:last-child {
+  margin-top: 0.8rem;
+}
+
+.textLabel {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.textLabel:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 1.5rem 3rem;
+  }
+
+  .main > div:last-child {
+    margin: 0;
+  }
+
+  .userContainer {
+    margin: 0;
+  }
+
+  .textLabel {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+  }
+}

@@ -1,5 +1,5 @@
 .gridContainer {
-  background-color: lightgray;
+  background-color: var(--background-color-light);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 2rem;
@@ -47,6 +47,7 @@
 .title {
   align-items: flex-end;
   display: flex;
+  font-family: var(--font-heading);
   font-size: larger;
   font-weight: bold;
   padding-left: 0.5rem;
@@ -66,24 +67,19 @@
 }
 
 @media (max-width: 768px) {
-  .gridContainer {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 1rem;
-  }
-
-  .rowOne, 
-  .rowTwo, 
-  .rowThree, 
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,
   .rightColumn {
     display: grid;
-    grid-template-columns: 1fr;
-    margin: 1rem 0; /* gap between rows */
+    grid-template-columns: repeat(1, 10fr);
   }
 
-  .rightColumnTop, 
-  .rightColumnBottom {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
+    margin: 1rem 0;
   }
 }

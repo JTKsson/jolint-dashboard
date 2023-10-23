@@ -1,0 +1,37 @@
+.main {
+  display: grid;
+}
+
+.sidebar {
+  background-color: var(--background-color-dark);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.frame {
+  margin-top: 4.2rem;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .main {
+    display: flex;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    margin-left: 12.5rem;
+    margin-top: 3.2rem;
+  }
+
+  .sidebar {
+    height: 100%;
+    order: 1;
+    width: 200px;
+  }
+
+  .frame {
+    margin-top: 0;
+    order: 2;
+  }
+}
