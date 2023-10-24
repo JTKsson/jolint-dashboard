@@ -1,5 +1,6 @@
 import inclusionData from '@/app/assets/mockData.json';
 import styles from './inclusionScoreCard.module.css'
+import Image from 'next/image';
 
 export default function Frame() {
   // Access the "Inclusion score" from the imported JSON data
@@ -22,6 +23,26 @@ export default function Frame() {
       <p>{roundedInclusionScore}</p>
       <div className={styles.progressBar}>
         <div style={progressBarStyle}></div>
+      </div>
+      <div>
+        <Image
+          src="/images/positive-arrow-green-icon.svg"
+          alt="Green arrow icon"
+          width={20}
+          height={20}
+          className={styles.arrow}
+        />
+        <p>since last month</p>
+      </div>
+      <div>
+        <Image
+          src="/images/positive-arrow-green-icon.svg"
+          alt="Green arrow icon"
+          width={20}
+          height={20}
+          className={styles.arrow}
+        />
+        <p>above benchmark</p>
       </div>
     </div>
   );
