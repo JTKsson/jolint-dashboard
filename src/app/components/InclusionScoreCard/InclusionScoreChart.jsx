@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   AreaChart,
   Area,
@@ -6,7 +6,7 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-} from 'recharts';
+} from 'recharts'
 
 export default function ChartComponent({ data }) {
   return (
@@ -23,11 +23,11 @@ export default function ChartComponent({ data }) {
         <Area
           type="monotone"
           dataKey="uv"
-          stroke="#8884d8"  // Change the stroke color
-          strokeWidth={2.3}  // Change the stroke width
+          stroke="#8884d8" // Change the stroke color
+          strokeWidth={2.3} // Change the stroke width
           fill="#8884d8"
         />
       </AreaChart>
     </ResponsiveContainer>
-  );
+  )
 }
