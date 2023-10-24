@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 4fr;
   height: 100%;
   padding: 1.7rem;
 }
@@ -13,6 +13,7 @@
 
 .rightContainer {
   background-color: aquamarine;
+  width: 100%;
 }
 
 .progressBar {
@@ -24,4 +25,11 @@
 .progressBar div {
   background-color: var(--c-green);
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
