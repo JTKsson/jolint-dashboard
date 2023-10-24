@@ -15,7 +15,7 @@ export default function ChartComponent({ data }) {
         width={500}
         height={400}
         data={data}
-        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+        margin={{ top: 0, right: 2, left: -10, bottom: -7 }}
       >
         <XAxis dataKey="name" />
         <YAxis />

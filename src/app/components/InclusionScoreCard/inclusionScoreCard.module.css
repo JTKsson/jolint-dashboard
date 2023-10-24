@@ -16,6 +16,10 @@
   width: 100%;
 }
 
+.rightContainer ul {
+  list-style: none;
+}
+
 .progressBar {
   background-color: lightgray;
   height: 20px;
