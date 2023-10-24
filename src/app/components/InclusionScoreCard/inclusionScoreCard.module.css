@@ -1,7 +1,24 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  padding: 1.7rem;
+}
+
+.leftContainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  background-color: aquamarine;
+}
+
 .progressBar {
-  width: 100%;
   background-color: lightgray;
   height: 20px;
+  width: 100%;
 }
 
 .progressBar div {

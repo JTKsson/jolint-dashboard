@@ -1,15 +1,15 @@
-import Image from 'next/image';
-import styles from './userProfile.module.css';
+import Image from 'next/image'
+import styles from './userProfile.module.css'
 
 const mockData = [
   {
     name: 'Anna',
-    role: 'HR'
+    role: 'HR',
   },
-];
+]
 
 export default function UserProfile() {
-  const user = mockData[0];
+  const user = mockData[0]
 
   return (
     <div className={styles.main}>
@@ -27,5 +27,5 @@ export default function UserProfile() {
         <p>Team {user.role}</p>
       </div>
     </div>
-  );
+  )
 }

@@ -58,11 +58,8 @@
 .frame50,
 .frame33,
 .leftBox {
-  align-items: center;
   background-color: white;
   border-radius: 30px;
-  display: flex;
-  justify-content: center;
   margin: 0.5rem;
 }
 
