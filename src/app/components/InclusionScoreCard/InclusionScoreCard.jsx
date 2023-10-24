@@ -1,10 +1,13 @@
 import inclusionData from '@/app/assets/mockData.json';
-import styles from './inclusionScoreCard.module.css'
+import styles from './inclusionScoreCard.module.css';
 import Image from 'next/image';
 
 export default function Frame() {
-  // Access the "Inclusion score" from the imported JSON data
-  const inclusionScore = inclusionData['Inclusion score'];
+  // Access the data for the first item in the JSON array
+  const inclusionDataItem = inclusionData[0];
+
+  // Access the "Inclusion score" from the JSON data
+  const inclusionScore = inclusionDataItem['Inclusion score'];
 
   // Round up the decimal to the nearest integer
   const roundedInclusionScore = Math.ceil(inclusionScore);
