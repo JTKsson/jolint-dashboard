@@ -1,3 +1,4 @@
+import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
 import styles from './frame.module.css'
 
 const GridItem = ({ className, children }) => (
@@ -8,7 +9,9 @@ export default function Frame() {
   return (
     <div className={styles.gridContainer}>
       <div className={styles.rowOne}>
-        <GridItem className={styles.frame75}>Inclusion score</GridItem>
+        <GridItem className={styles.frame75}>
+          <InclusionScoreCard />
+        </GridItem>
         <GridItem className={styles.frame25}>Weekly inclusion score</GridItem>
       </div>
 
