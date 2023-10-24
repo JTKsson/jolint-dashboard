@@ -5,6 +5,6 @@
 }
 
 .progressBar div {
-  background-color: blue;
+  background-color: var(--c-green);
   height: 100%;
 }

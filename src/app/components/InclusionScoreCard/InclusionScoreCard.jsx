@@ -12,7 +12,6 @@ export default function Frame() {
   // Define a CSS style for the progress bar
   const progressBarStyle = {
     width: `${roundedInclusionScore}%`,
-    backgroundColor: 'blue',
     height: '20px',
     transition: 'width 0.5s ease-in-out',
   };
