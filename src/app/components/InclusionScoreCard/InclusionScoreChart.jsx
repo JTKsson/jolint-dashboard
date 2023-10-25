@@ -6,7 +6,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-} from 'recharts';
+} from 'recharts'
 
 export default function ChartComponent({ data }) {
   // Round down and remove decimal places for each data point
@@ -14,7 +14,7 @@ export default function ChartComponent({ data }) {
     ...item,
     'Inclusion score': Math.floor(item['Inclusion score']),
     'Company Average': Math.floor(item['Company Average']),
-  }));
+  }))
 
   return (
     <ResponsiveContainer width="100%" height={250}>
@@ -53,5 +53,5 @@ export default function ChartComponent({ data }) {
         />
       </AreaChart>
     </ResponsiveContainer>
-  );
+  )
 }

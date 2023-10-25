@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import styles from './inclusionScoreCard.module.css';
+import { useState } from 'react'
+import styles from './inclusionScoreCard.module.css'
 
 export default function InclusionScoreCard({ teamName }) {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+    setIsDropdownOpen(!isDropdownOpen)
+  }
 
   return (
     <div className={styles.nav}>
@@ -32,5 +32,5 @@ export default function InclusionScoreCard({ teamName }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

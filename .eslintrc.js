@@ -1,10 +1,8 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2022, 
+    ecmaVersion: 2022,
   },
-  plugins: ["prettier"],
-  extends: ["plugin:prettier/recommended"],
-  rules: {
-    
-  },
-};
+  plugins: ['prettier'],
+  extends: ['plugin:prettier/recommended'],
+  rules: {},
+}
