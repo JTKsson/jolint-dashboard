@@ -5,6 +5,8 @@ import styles from './inclusionScoreCard.module.css';
 import ChartComponent from './InclusionScoreChart';
 import ProgressBar from './ProgressBar';
 import ScoreChangeArrows from './ScoreChangeArrows';
+import InclusionScoreNav from './InclusionScoreNav';
+
 
 export default function InclusionScoreCard() {
   const inclusionDataItem1 = inclusionData[0];
@@ -36,22 +38,7 @@ export default function InclusionScoreCard() {
       </div>
 
       <div className={styles.rightContainer}>
-        <div className={styles.nav}>
-          <div className={styles.title}>
-            <h2>Timeline</h2>
-          </div>
-          <div className={styles.navItems}>
-            <div className={styles.item}>
-              <p>Company Average</p>
-            </div>
-            <div className={styles.item}>
-              <p>Team {teamName}</p>
-            </div>
-            <div className={styles.item}>
-              <button>Team {teamName}</button>
-            </div>
-          </div>
-        </div>
+        <InclusionScoreNav teamName={teamName} />
         <ChartComponent data={inclusionData} />
       </div>
 
