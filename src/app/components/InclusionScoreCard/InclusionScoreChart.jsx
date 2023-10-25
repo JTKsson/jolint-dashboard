@@ -43,6 +43,14 @@ export default function ChartComponent({ data }) {
           fill="#8884d8"
           strokeWidth={2.3}
         />
+        <Area
+          type="monotone"
+          dataKey="Benchmark"
+          stroke="#EE6A76"
+          fill="transparent"
+          strokeWidth={2.3}
+          strokeDasharray="4 4"
+        />
       </AreaChart>
     </ResponsiveContainer>
   )
