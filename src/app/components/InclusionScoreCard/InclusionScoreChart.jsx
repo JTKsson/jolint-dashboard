@@ -6,15 +6,15 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-} from 'recharts'
+} from 'recharts';
 
 export default function ChartComponent({ data }) {
-  // Round up and remove decimal places for each data point
+  // Round down and remove decimal places for each data point
   const roundedData = data.map((item) => ({
     ...item,
-    'Inclusion score': Math.ceil(item['Inclusion score']),
-    'Company Average': Math.ceil(item['Company Average']),
-  }))
+    'Inclusion score': Math.floor(item['Inclusion score']),
+    'Company Average': Math.floor(item['Company Average']),
+  }));
 
   return (
     <ResponsiveContainer width="100%" height={250}>
@@ -53,5 +53,5 @@ export default function ChartComponent({ data }) {
         />
       </AreaChart>
     </ResponsiveContainer>
-  )
+  );
 }

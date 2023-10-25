@@ -9,17 +9,17 @@ import InclusionScoreNav from './InclusionScoreNav';
 
 
 export default function InclusionScoreCard() {
-  const inclusionDataItem1 = inclusionData[0];
-  const inclusionDataItem2 = inclusionData[1];
+  const inclusionDataItem1 = inclusionData[8]; // Oktober
+  const inclusionDataItem2 = inclusionData[7]; // September
   const inclusionScore1 = inclusionDataItem1['Inclusion score'];
   const inclusionScore2 = inclusionDataItem2['Inclusion score'];
  
   const benchmarkDataItem = benchmarkData[1];
   const benchmarkItem = benchmarkDataItem['Benchmark'];
-  const benchmark = ((inclusionScore2 - benchmarkItem));
+  const benchmark = ((inclusionScore1 - benchmarkItem));
  
-  const lastMonth = ((inclusionScore2 - inclusionScore1));
-  const roundedInclusionScore1 = Math.ceil(inclusionScore1);
+  const lastMonth = (Math.ceil(inclusionScore1 - inclusionScore2));
+  const roundedInclusionScore1 = Math.floor(inclusionScore1);
   const teamName = inclusionDataItem1['Team'];
 
   return (

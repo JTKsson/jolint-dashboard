@@ -2,9 +2,9 @@ import Image from 'next/image';
 import styles from './inclusionScoreCard.module.css';
 
 export default function ScoreChangeArrows({ lastMonth, benchmark }) {
-  // Round up the values and convert them to strings
-  const roundedLastMonth = Math.round(lastMonth).toString();
-  const roundedBenchmark = Math.round(benchmark).toString();
+  // Round down the values and convert them to strings
+  const roundedLastMonth = Math.floor(lastMonth).toString();
+  const roundedBenchmark = Math.floor(benchmark).toString();
 
   return (
     <>
