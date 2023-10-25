@@ -8,7 +8,8 @@
     "Team Inclusion": 67.4102190719,
     "Cross-Functional Inclusion": 39.5358319982,
     "Informal Influence": 76.3299874475,
-    "Work Habits": 23.0707227639
+    "Work Habits": 23.0707227639,
+    "Company Average": 49.15153151491
   },
   {
     "Month": "Mar",
@@ -19,7 +20,8 @@
     "Team Inclusion": 65.0300261307,
     "Cross-Functional Inclusion": 48.8500051209,
     "Informal Influence": 71.9103192064,
-    "Work Habits": 31.2936017658
+    "Work Habits": 31.2936017658,
+    "Company Average": 54.35153151491
   },
   {
     "Month": "Apr",
@@ -30,7 +32,8 @@
     "Team Inclusion": 49.4334457376,
     "Cross-Functional Inclusion": 30.7216340908,
     "Informal Influence": 73.8682929021,
-    "Work Habits": 25.7194093453
+    "Work Habits": 53.7194053453,
+    "Company Average": 59.15153151491
   },
   {
     "Month": "May",
@@ -41,7 +44,8 @@
     "Team Inclusion": 42.6228361523,
     "Cross-Functional Inclusion": 36.1524657519,
     "Informal Influence": 80.0,
-    "Work Habits": 21.7646024502
+    "Work Habits": 21.7646024502,
+    "Company Average": 51.15153151491
   },
   {
     "Month": "Jun",
@@ -52,7 +56,8 @@
     "Team Inclusion": 45.2719348519,
     "Cross-Functional Inclusion": 46.7337812592,
     "Informal Influence": 55.1462836238,
-    "Work Habits": 22.2630209494
+    "Work Habits": 22.2630209494,
+    "Company Average": 43.1253151491
   },
   {
     "Month": "Jul",
@@ -63,7 +68,8 @@
     "Team Inclusion": 36.0743554743,
     "Cross-Functional Inclusion": 47.845664484,
     "Informal Influence": 52.5440167334,
-    "Work Habits": 33.9848731867
+    "Work Habits": 33.9848731867,
+    "Company Average": 59.15153151491
   },
   {
     "Month": "Aug",
@@ -74,7 +80,8 @@
     "Team Inclusion": 58.0433051473,
     "Cross-Functional Inclusion": 31.2710628657,
     "Informal Influence": 44.9909361058,
-    "Work Habits": 45.2844044428
+    "Work Habits": 45.2844044428,
+    "Company Average": 56.25153151491
   },
   {
     "Month": "Sep",
@@ -85,7 +92,8 @@
     "Team Inclusion": 67.235216249,
     "Cross-Functional Inclusion": 69.3887668225,
     "Informal Influence": 76.5487487256,
-    "Work Habits": 49.9698921918
+    "Work Habits": 49.9698921918,
+    "Company Average": 59.15153151491
   },
   {
     "Month": "Okt",
@@ -96,6 +104,7 @@
     "Team Inclusion": 57.030264811,
     "Cross-Functional Inclusion": 20.0,
     "Informal Influence": 35.4259716144,
-    "Work Habits": 56.54573265
+    "Work Habits": 56.54573265,
+    "Company Average": 45.75153151491
   }
 ]

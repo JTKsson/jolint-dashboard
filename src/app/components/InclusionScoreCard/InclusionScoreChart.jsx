@@ -1,38 +1,47 @@
-import React from 'react'
 import {
   AreaChart,
   Area,
   XAxis,
   YAxis,
+  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
 } from 'recharts'
 
 export default function ChartComponent({ data }) {
-  // Round up the "Inclusion score" data and remove decimals
+  // Round up and remove decimal places for each data point
   const roundedData = data.map((item) => ({
     ...item,
     'Inclusion score': Math.ceil(item['Inclusion score']),
+    'Company Average': Math.ceil(item['Company Average']),
   }))
 
   return (
-    <ResponsiveContainer width="100%" height={200}>
+    <ResponsiveContainer width="100%" height={250}>
       <AreaChart
         width={500}
         height={400}
-        strokeWidth={0}
         data={roundedData} // Use the rounded data
-        margin={{ top: 0, right: 2, left: -25, bottom: -7 }}
+        strokeWidth={0}
+        margin={{ top: 0, right: 10, left: -25, bottom: -7 }}
       >
+        <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Month" />
         <YAxis dataKey="Inclusion score" type="number" domain={[0, 100]} />
         <Tooltip />
         <Area
           type="monotone"
           dataKey="Inclusion score"
-          stroke="#8884d8"
+          stroke="#82ca9d"
+          fill="#82ca9d"
           strokeWidth={2.3}
+        />
+        <Area
+          type="monotone"
+          dataKey="Company Average"
+          stroke="#8884d8"
           fill="#8884d8"
+          strokeWidth={2.3}
         />
       </AreaChart>
     </ResponsiveContainer>
