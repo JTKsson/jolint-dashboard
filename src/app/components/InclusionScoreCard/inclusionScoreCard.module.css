@@ -20,6 +20,11 @@
   list-style: none;
 }
 
+.timeline {
+  display: flex;
+  justify-content: space-between;
+}
+
 .progressBar {
   background-color: lightgray;
   height: 20px;
@@ -34,6 +39,6 @@
 @media (max-width: 768px) {
   .main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }

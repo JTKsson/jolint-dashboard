@@ -17,14 +17,14 @@ export default function ChartComponent({ data }) {
         data={data}
         margin={{ top: 0, right: 2, left: -10, bottom: -7 }}
       >
-        <XAxis dataKey="name" />
-        <YAxis />
+        <XAxis dataKey="Month" />
+        <YAxis dataKey="Inclusion score" type="number" domain={[0, 100]} /> 
         <Tooltip />
         <Area
           type="monotone"
-          dataKey="uv"
-          stroke="#8884d8" // Change the stroke color
-          strokeWidth={2.3} // Change the stroke width
+          dataKey="Inclusion score"
+          stroke="#8884d8"
+          strokeWidth={2.3}
           fill="#8884d8"
         />
       </AreaChart>

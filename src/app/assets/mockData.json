@@ -1,5 +1,83 @@
 [
   {
+    "Month": "Feb",
+    "First_Day_of_Week": 1675036800000,
+    "ISO_Week": "2023-W05",
+    "Team": "Sales",
+    "Inclusion score": 51.5866903204,
+    "Team Inclusion": 67.4102190719,
+    "Cross-Functional Inclusion": 39.5358319982,
+    "Informal Influence": 76.3299874475,
+    "Work Habits": 23.0707227639
+  },
+  {
+    "Month": "Mar",
+    "First_Day_of_Week": 1677456000000,
+    "ISO_Week": "2023-W09",
+    "Team": "Sales",
+    "Inclusion score": 54.2709880559,
+    "Team Inclusion": 65.0300261307,
+    "Cross-Functional Inclusion": 48.8500051209,
+    "Informal Influence": 71.9103192064,
+    "Work Habits": 31.2936017658
+  },
+  {
+    "Month": "Apr",
+    "First_Day_of_Week": 1680480000000,
+    "ISO_Week": "2023-W14",
+    "Team": "Sales",
+    "Inclusion score": 44.935695519,
+    "Team Inclusion": 49.4334457376,
+    "Cross-Functional Inclusion": 30.7216340908,
+    "Informal Influence": 73.8682929021,
+    "Work Habits": 25.7194093453
+  },
+  {
+    "Month": "May",
+    "First_Day_of_Week": 1682899200000,
+    "ISO_Week": "2023-W18",
+    "Team": "Sales",
+    "Inclusion score": 45.1349760886,
+    "Team Inclusion": 42.6228361523,
+    "Cross-Functional Inclusion": 36.1524657519,
+    "Informal Influence": 80.0,
+    "Work Habits": 21.7646024502
+  },
+  {
+    "Month": "Jun",
+    "First_Day_of_Week": 1685318400000,
+    "ISO_Week": "2023-W22",
+    "Team": "Sales",
+    "Inclusion score": 42.3537551711,
+    "Team Inclusion": 45.2719348519,
+    "Cross-Functional Inclusion": 46.7337812592,
+    "Informal Influence": 55.1462836238,
+    "Work Habits": 22.2630209494
+  },
+  {
+    "Month": "Jul",
+    "First_Day_of_Week": 1688342400000,
+    "ISO_Week": "2023-W27",
+    "Team": "Sales",
+    "Inclusion score": 42.6122274696,
+    "Team Inclusion": 36.0743554743,
+    "Cross-Functional Inclusion": 47.845664484,
+    "Informal Influence": 52.5440167334,
+    "Work Habits": 33.9848731867
+  },
+  {
+    "Month": "Aug",
+    "First_Day_of_Week": 1690761600000,
+    "ISO_Week": "2023-W31",
+    "Team": "Sales",
+    "Inclusion score": 44.8974271404,
+    "Team Inclusion": 58.0433051473,
+    "Cross-Functional Inclusion": 31.2710628657,
+    "Informal Influence": 44.9909361058,
+    "Work Habits": 45.2844044428
+  },
+  {
+    "Month": "Sep",
     "First_Day_of_Week": 1693180800000,
     "ISO_Week": "2023-W35",
     "Team": "HR",
@@ -10,13 +88,14 @@
     "Work Habits": 49.9698921918
   },
   {
-    "First_Day_of_Week": 1695600000000,
-    "ISO_Week": "2023-W39",
-    "Team": "HR",
-    "Inclusion score": 65.6479224777,
-    "Team Inclusion": 80.0,
-    "Cross-Functional Inclusion": 63.5669102852,
-    "Informal Influence": 60.2646930396,
-    "Work Habits": 58.760086586
+    "Month": "Okt",
+    "First_Day_of_Week": 1696204800000,
+    "ISO_Week": "2023-W40",
+    "Team": "Sales",
+    "Inclusion score": 42.2504922688,
+    "Team Inclusion": 57.030264811,
+    "Cross-Functional Inclusion": 20.0,
+    "Informal Influence": 35.4259716144,
+    "Work Habits": 56.54573265
   }
 ]

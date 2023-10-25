@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import inclusionData from '../../assets/mockData.json'
-import chartData from '../../assets/chartData'
 import styles from './inclusionScoreCard.module.css'
 import ChartComponent from './InclusionScoreChart'
 
@@ -70,7 +69,7 @@ export default function InclusionScoreCard() {
           <li>Team HR</li>
           <button>Team HR</button>
         </ul>
-        <ChartComponent data={chartData} />
+        <ChartComponent data={inclusionData} />
       </div>
     </div>
   )
