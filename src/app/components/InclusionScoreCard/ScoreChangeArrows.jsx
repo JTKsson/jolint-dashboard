@@ -2,6 +2,10 @@ import Image from 'next/image';
 import styles from './inclusionScoreCard.module.css';
 
 export default function ScoreChangeArrows({ lastMonth, benchmark }) {
+  // Round up the values and convert them to strings
+  const roundedLastMonth = Math.round(lastMonth).toString();
+  const roundedBenchmark = Math.round(benchmark).toString();
+
   return (
     <>
       <div>
@@ -18,14 +22,13 @@ export default function ScoreChangeArrows({ lastMonth, benchmark }) {
         />
         <p>
           {lastMonth > 0
-            ? `+${lastMonth.toFixed(2)}`
-            : `-${Math.abs(lastMonth).toFixed(2)}`}{' '}
-          since last month
+            ? `+${roundedLastMonth}`
+            : `-${Math.abs(roundedLastMonth)} `} since last month
         </p>
       </div>
 
       <div>
-      <Image
+        <Image
           src={
             benchmark > 0
               ? '/images/positive-arrow-green-icon.svg'
@@ -38,9 +41,8 @@ export default function ScoreChangeArrows({ lastMonth, benchmark }) {
         />
         <p>
           {benchmark > 0
-            ? `+${benchmark.toFixed(2)} above`
-            : `-${Math.abs(benchmark).toFixed(2)} below`}{' '}
-          benchmark
+            ? `+${roundedBenchmark} above`
+            : `-${Math.abs(roundedBenchmark)} below`} benchmark
         </p>
       </div>
     </>
