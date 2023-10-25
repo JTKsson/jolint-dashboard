@@ -24,6 +24,8 @@ export default function InclusionScoreCard() {
     transition: 'width 0.5s ease-in-out',
   }
 
+  const teamName = inclusionDataItem1['Team'] // Access "Team" from the JSON data
+
   return (
     <div className={styles.main}>
       <div className={styles.leftContainer}>
@@ -63,12 +65,22 @@ export default function InclusionScoreCard() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <h2>Timeline</h2>
-        <ul>
-          <li>Company Average</li>
-          <li>Team HR</li>
-          <button>Team HR</button>
-        </ul>
+        <div className={styles.nav}>
+          <div className={styles.title}>
+            <h2>Timeline</h2>
+          </div>
+          <div className={styles.navItems}>
+            <div className={styles.item}>
+              <p>Company Average</p>
+            </div>
+            <div className={styles.item}>
+              <p>Team {teamName}</p>
+            </div>
+            <div className={styles.item}>
+              <button>Team {teamName}</button>
+            </div>
+          </div>
+        </div>
         <ChartComponent data={inclusionData} />
       </div>
     </div>

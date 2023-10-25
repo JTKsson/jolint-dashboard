@@ -20,9 +20,16 @@
   list-style: none;
 }
 
-.timeline {
+.nav {
+  background-color: blue;
   display: flex;
   justify-content: space-between;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .progressBar {
