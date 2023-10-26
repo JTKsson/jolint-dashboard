@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from './inclusionScoreCard.module.css'
 import Image from 'next/image'
+import { BsFillCircleFill } from 'react-icons/bs'
 
 export default function InclusionScoreCard({ teamName }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -16,9 +17,25 @@ export default function InclusionScoreCard({ teamName }) {
       </div>
       <div className={styles.navItems}>
         <div className={styles.item}>
+          <BsFillCircleFill
+            className={styles.dot}
+            size={10}
+            style={{
+              color: 'var(--c-mellow-blue)',
+              marginRight: '5px',
+            }}
+          />
           <span>Company Average</span>
         </div>
         <div className={styles.item}>
+          <BsFillCircleFill
+            className={styles.dot}
+            size={10}
+            style={{
+              color: 'var(--c-bright-blue)',
+              marginRight: '5px',
+            }}
+          />
           <span>Team {teamName}</span>
         </div>
         <div className={styles.dropdown}>
