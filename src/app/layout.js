@@ -1,7 +1,7 @@
 import './globals.css'
-import { DM_Sans } from 'next/font/google'
+import { Kumbh_Sans } from 'next/font/google'
 
-const DMSans = DM_Sans({ subsets: ['latin'] })
+const KumbhSans = Kumbh_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Jolint | Dashboard',
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={DMSans.className}>{children}</body>
+      <body className={KumbhSans.className}>{children}</body>
     </html>
   )
 }

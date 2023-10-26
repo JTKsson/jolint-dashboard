@@ -1,42 +1,69 @@
 .main {
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 3fr 5fr;
   height: 100%;
   padding: 1.7rem;
 }
 
+/* LEFT PROGRESS SIDE */
 .leftContainer {
-  background-color: blue;
   display: flex;
   flex-direction: column;
-}
-
-.rightContainer {
-  background-color: aquamarine;
-  width: 100%;
-}
-
-.nav {
-  background-color: blue;
-  display: flex;
   justify-content: space-between;
 }
 
-.navItems {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-}
-
 .progressBar {
-  background-color: lightgray;
-  height: 20px;
+  background-color: var(--c-light-gray);
+  border-radius: 5px;
   width: 100%;
 }
 
 .progressBar div {
   background-color: var(--c-green);
+  border-radius: 5px;
   height: 100%;
+}
+
+.result {
+  margin: 2rem;
+}
+
+.progessBarResult {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: -2.5rem 3rem 0 0;
+}
+
+.mainArrowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.topArrowContainer,
+.bottomArrowContainer {
+  display: flex;
+  gap: 0.4rem;
+}
+
+/* RIGHT CHART SIDE */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.15rem 0 1.5rem;
+}
+
+.navItems {
+  align-items: center;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.button {
+  display: flex;
+  gap: 15px;
 }
 
 @media (max-width: 768px) {

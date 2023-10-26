@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './inclusionScoreCard.module.css'
+import Image from 'next/image'
 
 export default function InclusionScoreCard({ teamName }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -15,13 +16,23 @@ export default function InclusionScoreCard({ teamName }) {
       </div>
       <div className={styles.navItems}>
         <div className={styles.item}>
-          <p>Company Average</p>
+          <span>Company Average</span>
         </div>
         <div className={styles.item}>
-          <p>Team {teamName}</p>
+          <span>Team {teamName}</span>
         </div>
         <div className={styles.dropdown}>
-          <button onClick={toggleDropdown}>Team {teamName}</button>
+          <button onClick={toggleDropdown} className={styles.button}>
+            <div>Team {teamName}</div>
+            <div>
+              <Image
+                src="/images/arrow-down-s-line.svg"
+                alt="Arrow down icon"
+                width={8}
+                height={8}
+              />
+            </div>
+          </button>
           {isDropdownOpen && (
             <div className={styles.dropdownContent}>
               {/* <p>Team {teamName}</p>

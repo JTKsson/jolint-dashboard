@@ -8,28 +8,74 @@
 
 :root {
   /* Primary background colors */
-  --background-color-dark: #121633;
-  --background-color-light: #d4dde7;
+  --background-color-dark-navy: #121633;
+  --background-color-light-blue: #d4dde7;
 
   /* Chart colors */
   --c-green: #4fbb4d;
-  --c-red: #b40d0d;
-  --c-bright-blue: #0025c6;
-  --c-mellow-blue: #9db8d4;
+  --c-light-red: #ee6a76;
+  --c-bright-blue: #0015ce;
+  --c-mellow-blue: #97b8d7;
   --c-light-blue: #cedce9;
-  --c-gray: #9e9898;
-  --c-orange: #ea9248;
+  --c-dark-gray: #b7b7b7;
+  --c-mellow-gray: #dadada;
+  --c-light-gray: #ededed;
+  --c-orange: #f4770a;
 
   /* Text colors */
   --text-color-dark: black;
   --text-color-light: white;
 
-  /* Fonts */
+  /* Font styles */
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body-copy: 'Kumbh Sans', sans-serif;
+
+  /* Font sizes */
+  --fs-heading: 1.3rem;
+  --fs-subheading: 1rem;
+  --fs-paragraph-L: 3rem;
+  --fs-paragraph-M: 0.82rem;
+  --fs-paragraph-S: 0.76rem;
 }
 
 body {
-  background-color: var(--background-color-dark);
+  background-color: var(--background-color-dark-navy);
   color: var(--text-color-dark);
+}
+
+h1 {
+  font-size: var(--fs-heading);
+}
+
+h2 {
+  font-size: var(--fs-subheading);
+}
+
+h3 {
+  font-size: var(--fs-paragraph-L);
+}
+
+p {
+  font-size: var(--fs-paragraph-M);
+}
+
+span {
+  font-size: var(--fs-paragraph-S);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
+
+button {
+  /* Styling for ALL dropdown buttons */
+  font-family: var(--font-body-copy);
+  font-size: var(--fs-paragraph-S);
+  background-color: white;
+  border-style: none;
+  border: 1.5px solid var(--c-mellow-gray);
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
 }

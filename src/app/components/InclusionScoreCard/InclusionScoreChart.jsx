@@ -26,22 +26,58 @@ export default function ChartComponent({ data }) {
         strokeWidth={0}
         margin={{ top: 0, right: 10, left: -25, bottom: -7 }}
       >
+        <defs>
+          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+            <stop
+              offset="5%"
+              stopColor="var(--c-bright-blue)"
+              stopOpacity={0.8}
+            />
+            <stop
+              offset="95%"
+              stopColor="var(--c-bright-blue)"
+              stopOpacity={0}
+            />
+          </linearGradient>
+          <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
+            <stop
+              offset="5%"
+              stopColor="var(--c-mellow-blue)"
+              stopOpacity={0.8}
+            />
+            <stop
+              offset="95%"
+              stopColor="var(--c-mellow-blue)"
+              stopOpacity={0}
+            />
+          </linearGradient>
+        </defs>
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="Month" />
-        <YAxis dataKey="Inclusion score" type="number" domain={[0, 100]} />
+        <XAxis
+          dataKey="Month"
+          stroke="var(----text-color-dark)"
+          tick={{ fontSize: 12 }}
+        />
+        <YAxis
+          dataKey="Inclusion score"
+          type="number"
+          domain={[0, 100]}
+          stroke="var(----text-color-dark)"
+          tick={{ fontSize: 12 }}
+        />
         <Tooltip />
         <Area
           type="monotone"
-          dataKey="Inclusion score"
-          stroke="#82ca9d"
-          fill="#82ca9d"
+          dataKey="Company Average"
+          stroke="var(--c-mellow-blue)"
+          fill="url(#colorPv)"
           strokeWidth={2.3}
         />
         <Area
           type="monotone"
-          dataKey="Company Average"
-          stroke="#8884d8"
-          fill="#8884d8"
+          dataKey="Inclusion score"
+          stroke="var(--c-bright-blue)"
+          fill="url(#colorUv)"
           strokeWidth={2.3}
         />
         <Area

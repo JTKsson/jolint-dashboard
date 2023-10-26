@@ -25,8 +25,12 @@ export default function InclusionScoreCard() {
     <div className={styles.main}>
       <div className={styles.leftContainer}>
         <h1>Inclusion Score</h1>
-        <p>{roundedInclusionScore1}</p>
-        <ProgressBar percentage={roundedInclusionScore1} />
+        <div className={styles.progessBarResult}>
+          <div className={styles.result}>
+            <h3>{roundedInclusionScore1}</h3>
+          </div>
+          <ProgressBar percentage={roundedInclusionScore1} />
+        </div>
         <ScoreChangeArrows lastMonth={lastMonth} benchmark={benchmark} />
       </div>
 

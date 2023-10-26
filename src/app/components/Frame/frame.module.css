@@ -1,5 +1,5 @@
 .gridContainer {
-  background-color: var(--background-color-light);
+  background-color: var(--background-color-light-blue);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 2rem;

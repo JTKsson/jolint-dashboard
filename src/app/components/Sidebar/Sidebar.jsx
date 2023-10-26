@@ -15,7 +15,7 @@ export default function Sidebar() {
           width={20}
           height={20}
         />
-        Dashboard
+        <p>Dashboard</p>
       </div>
       <div className={styles.textLabel}>
         <Image
@@ -24,7 +24,7 @@ export default function Sidebar() {
           width={20}
           height={20}
         />
-        Settings
+        <p>Settings</p>
       </div>
     </div>
   )

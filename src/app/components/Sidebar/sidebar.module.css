@@ -17,6 +17,10 @@
   gap: 0.5rem;
 }
 
+.textLabel p {
+  font-size: 1rem;
+}
+
 .textLabel:hover {
   cursor: pointer;
   opacity: 0.5;

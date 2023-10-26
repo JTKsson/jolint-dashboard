@@ -3,7 +3,7 @@ import styles from './inclusionScoreCard.module.css'
 export default function ProgressBar({ percentage }) {
   const progressBarStyle = {
     width: `${percentage}%`,
-    height: '20px',
+    height: '37px',
     transition: 'width 0.5s ease-in-out',
   }
 
