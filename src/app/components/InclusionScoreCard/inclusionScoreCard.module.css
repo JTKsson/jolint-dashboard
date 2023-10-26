@@ -71,4 +71,20 @@
     display: flex;
     flex-direction: column;
   }
+
+  .result {
+    margin: 2rem;
+  }
+
+  .progessBarResult {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 0;
+  }
+
+  .mainArrowContainer {
+    margin-bottom: 3rem; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
