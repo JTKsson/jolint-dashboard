@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import styles from './weeklyScoreCard.module.css'
 
 export default function ScoreChangeArrows({ lastMonth }) {
   // Round down the values and convert them to strings
@@ -6,8 +7,8 @@ export default function ScoreChangeArrows({ lastMonth }) {
 
   return (
     <>
-      <div>
-        <div>
+      <div className={styles.mainArrowContainer}>
+        <div className={styles.topArrowContainer}>
           <Image
             src={
               lastMonth > 0
@@ -18,6 +19,7 @@ export default function ScoreChangeArrows({ lastMonth }) {
             width={15}
             height={15}
             style={{ filter: 'grayscale(1)' }} // Apply grayscale filter to make the arrows gray
+            className={styles.icon}
           />
           <p>
             {lastMonth > 0

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import styles from './weeklyScoreCard.module.css'
 import Image from 'next/image'
 
 export default function InclusionScoreCard({ thisWeek }) {
@@ -9,12 +10,12 @@ export default function InclusionScoreCard({ thisWeek }) {
   }
 
   return (
-    <div>
-      <div>
+    <div className={styles.nav}>
+      <div className={styles.title}>
         <h2>Timeline</h2>
       </div>
-      <div>
-        <button onClick={toggleDropdown}>
+      <div className={styles.dropdown}>
+        <button onClick={toggleDropdown} className={styles.button}>
           <div>This week {thisWeek}</div>
           <div>
             <Image
@@ -26,7 +27,7 @@ export default function InclusionScoreCard({ thisWeek }) {
           </div>
         </button>
         {isDropdownOpen && (
-          <div>{/* Add content here */}</div>
+          <div className={styles.dropdownContent}>{/* Add content here */}</div>
         )}
       </div>
     </div>

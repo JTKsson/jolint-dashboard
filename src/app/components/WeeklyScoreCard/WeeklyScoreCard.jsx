@@ -2,6 +2,7 @@
 import Image from 'next/image'
 
 import inclusionData from '../../assets/mockData.json'
+import styles from './weeklyScoreCard.module.css'
 import ScoreChangeArrows from './ScoreChangeArrows'
 import WeeklyInclusionScoreNav from './WeeklyScoreNav'
 import ProgressBar from './ProgressBar'
@@ -37,20 +38,21 @@ export default function WeeklyInclusionScoreCard() {
   const isPositive4 = percentageChange4 > 0
 
   return (
-    <div>
+    <div className={styles.main}>
       <WeeklyInclusionScoreNav thisWeek={thisWeek} />
-      <div>
-        <div>
-          <div>
+      <div className={styles.rowOne}>
+        <div className={styles.topRowContainer}>
+          <div className={styles.infoLeftContainer}>
             <p>Team interactions</p>
-            <div>
+            <div className={styles.iconContainer}>
               <Image
                 src="/images/info-icon.svg"
                 alt="Info icon"
                 width={15}
                 height={15}
+                className={styles.icon}
               />
-              <div>
+              <div className={styles.tooltip}>
                 <p>This is some tooltip text.</p>
               </div>
             </div>
@@ -58,84 +60,87 @@ export default function WeeklyInclusionScoreCard() {
           <ScoreChangeArrows lastMonth={percentageChange1} />
         </div>
 
-        <div>
+        <div className={styles.progressBarContent}>
           <ProgressBar
             percentage={roundedInclusionScore1}
             isPositive={isPositive1}
           />
-          <div>
+          <div className={styles.result}>
             <p>{roundedInclusionScore1}</p>
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
+      <div className={styles.rowTwo}>
+        <div className={styles.topRowContainer}>
+          <div className={styles.infoLeftContainer}>
             <p>Cross-functional interaction</p>
             <Image
               src="/images/info-icon.svg"
               alt="Info icon"
               width={15}
               height={15}
+              className={styles.icon}
             />
           </div>
           <ScoreChangeArrows lastMonth={percentageChange2} />
         </div>
 
-        <div>
+        <div className={styles.progressBarContent}>
           <ProgressBar
             percentage={roundedInclusionScore2}
             isPositive={isPositive2}
           />
-          <div>
+          <div className={styles.result}>
             <p>{roundedInclusionScore2}</p>
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
+      <div className={styles.rowThree}>
+        <div className={styles.topRowContainer}>
+          <div className={styles.infoLeftContainer}>
             <p>Informal influence</p>
             <Image
               src="/images/info-icon.svg"
               alt="Info icon"
               width={15}
               height={15}
+              className={styles.icon}
             />
           </div>
           <ScoreChangeArrows lastMonth={percentageChange3} />
         </div>
 
-        <div>
+        <div className={styles.progressBarContent}>
           <ProgressBar
             percentage={roundedInclusionScore3}
             isPositive={isPositive3}
           />
-          <div>
+          <div className={styles.result}>
             <p>{roundedInclusionScore3}</p>
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
+      <div className={styles.rowFour}>
+        <div className={styles.topRowContainer}>
+          <div className={styles.infoLeftContainer}>
             <p>Work habits</p>
             <Image
               src="/images/info-icon.svg"
               alt="Info icon"
               width={15}
               height={15}
+              className={styles.icon}
             />
           </div>
           <ScoreChangeArrows lastMonth={percentageChange4} />
         </div>
 
-        <div>
+        <div className={styles.progressBarContent}>
           <ProgressBar
             percentage={roundedInclusionScore4}
             isPositive={isPositive4}
           />
-          <div>
+          <div className={styles.result}>
             <p>{roundedInclusionScore4}</p>
           </div>
         </div>

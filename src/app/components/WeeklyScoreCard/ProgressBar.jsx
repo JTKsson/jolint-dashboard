@@ -1,3 +1,5 @@
+import styles from './weeklyScoreCard.module.css'
+
 export default function ProgressBar({ percentage, isPositive }) {
   const progressBarStyle = {
     width: `${percentage}%`,
@@ -7,7 +9,7 @@ export default function ProgressBar({ percentage, isPositive }) {
   }
 
   return (
-    <div>
+    <div className={styles.progressBar}>
       <div style={progressBarStyle}></div>
     </div>
   )

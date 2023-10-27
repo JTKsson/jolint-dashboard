@@ -1,0 +1,93 @@
+.main {
+  height: 100%;
+  padding: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title and dropdown button */
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  gap: 15px;
+  margin-top: 0.2rem;
+}
+
+.topRowContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.6rem;
+  justify-content: space-between;
+}
+
+.topArrowContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.8rem;
+}
+
+.infoLeftContainer {
+  align-items: center;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.icon {
+  margin-top: 0.09rem;
+}
+
+.result {
+  font-weight: bold;
+}
+.progressBar {
+  background-color: var(--c-light-gray);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.progressBar div {
+  background-color: var(--c-green);
+  border-radius: 4px;
+  height: 100%;
+}
+
+.progressBarContent {
+  display: flex;
+  gap: 0.85rem;
+}
+
+.iconContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.iconContainer:hover .tooltip {
+  display: block;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--text-color-light);
+  color: var(--text-color-dark);
+  border: 1px solid var(--c-mellow-gray);
+  padding: 1rem;
+  width: 12rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-bottom: 6rem;
+  }
+}
