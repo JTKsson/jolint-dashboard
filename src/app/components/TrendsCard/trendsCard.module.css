@@ -1,0 +1,12 @@
+.trendItem {
+    outline: auto;
+    display: flex;
+    padding: 1.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.text {
+
+}
