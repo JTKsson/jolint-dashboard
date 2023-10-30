@@ -1,5 +1,6 @@
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
+import TrendsCard from '../TrendsCard'
 import styles from './frame.module.css'
 
 const GridItem = ({ className, children }) => (
@@ -29,7 +30,7 @@ export default function Frame() {
       <div className={styles.rowThree}>
         <div className={styles.leftColumnTrends}>
           <GridItem className={styles.title}>Trends</GridItem>
-          <GridItem className={styles.leftBox}>Trends</GridItem>
+          <GridItem className={styles.leftBox}><TrendsCard /></GridItem>
         </div>
         <div className={styles.rightColumn}>
           <GridItem className={styles.title}>Risks</GridItem>
