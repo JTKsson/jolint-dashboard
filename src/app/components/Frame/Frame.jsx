@@ -1,4 +1,5 @@
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
+import NewHiresCard from '../NewHiresCard/NewHiresCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import styles from './frame.module.css'
 
@@ -21,7 +22,9 @@ export default function Frame() {
       <div className={styles.rowTwo}>
         <div className={styles.leftColumn}>
           <GridItem className={styles.frame50}>TBD</GridItem>
-          <GridItem className={styles.frame50}>Inclusion of new-hires</GridItem>
+          <GridItem className={styles.frame50}>
+            <NewHiresCard />
+          </GridItem>
         </div>
         <GridItem className={styles.frame33}>Differences</GridItem>
       </div>
