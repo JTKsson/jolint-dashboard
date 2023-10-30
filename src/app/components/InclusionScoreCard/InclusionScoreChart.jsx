@@ -27,7 +27,7 @@ export default function ChartComponent({ data }) {
         margin={{ top: 0, right: 10, left: -25, bottom: -7 }}
       >
         <defs>
-          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1" >
+          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
             <stop
               offset="5%"
               stopColor="var(--c-bright-blue)"
