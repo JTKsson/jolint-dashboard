@@ -8,11 +8,11 @@ const TrendsCard = () => {
     console.log(trendsData)
 
     return (
-        <div>
+        <div className={styles.trendContainer}>
             {trendsData.map((trend, index) => (
                 <div key={index}>
                     <div className={styles.trendItem}>
-                        <div>
+                        <div className={styles.img}>
                             <Image
                                 src={
                                     trend.trend === "pos"

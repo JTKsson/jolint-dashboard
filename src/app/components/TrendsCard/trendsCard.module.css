@@ -1,12 +1,22 @@
+.trendContainer {
+    overflow: scroll;
+    aspect-ratio: 1;
+    /* padding: 30px 25px; */
+}
+
 .trendItem {
-    outline: auto;
+    /* outline: auto; */
     display: flex;
     padding: 1.85rem;
+    /* padding-bottom: 30px; */
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    align-items: center;
 }
 
-.text {
-
+.img {
+    padding-right: 0.75rem;
+    display: flex;
+    align-items: center;
 }
