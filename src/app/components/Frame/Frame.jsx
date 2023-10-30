@@ -1,3 +1,5 @@
+'use client'
+import { useEffect } from 'react'
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import styles from './frame.module.css'
@@ -7,6 +9,18 @@ const GridItem = ({ className, children }) => (
 )
 
 export default function Frame() {
+  useEffect(() => {
+    const handleResize = () => {
+      window.location.reload();
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className={styles.gridContainer}>
       <div className={styles.rowOne}>
