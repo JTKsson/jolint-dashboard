@@ -22,6 +22,9 @@
   --c-light-gray: #ededed;
   --c-orange: #f4770a;
 
+    /* Card colors */
+    --c-card-bg: #fff;
+
   /* Text colors */
   --text-color-dark: black;
   --text-color-light: white;
