@@ -31,11 +31,11 @@
   --font-body-copy: 'Kumbh Sans', sans-serif;
 
   /* Font sizes */
-  --fs-heading: 1.3rem;
-  --fs-subheading: 1rem;
-  --fs-paragraph-L: 3rem;
-  --fs-paragraph-M: 0.82rem;
-  --fs-paragraph-S: 0.76rem;
+  --fs-heading: 1.3rem; /*21px*/
+  --fs-subheading: 1rem; /*16px*/
+  --fs-paragraph-L: 3rem; /*48px*/
+  --fs-paragraph-M: 0.82rem; /*13px*/
+  --fs-paragraph-S: 0.76rem; /*12px*/
 }
 
 body {
