@@ -1,338 +1,338 @@
 [
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Male",
-      "metric": "Team Inclusion",
-      "variation": 53.12
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Team Inclusion",
+    "variation": 53.12
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Female",
-      "metric": "Team Inclusion",
-      "variation": 42.01
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Team Inclusion",
+    "variation": 42.01
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Non-Binary",
-      "metric": "Team Inclusion",
-      "variation": 45.91
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Team Inclusion",
+    "variation": 45.91
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "18-25",
-      "metric": "Team Inclusion",
-      "variation": 38.19
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Team Inclusion",
+    "variation": 38.19
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "26-35",
-      "metric": "Team Inclusion",
-      "variation": 56.59
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Team Inclusion",
+    "variation": 56.59
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "36-45",
-      "metric": "Team Inclusion",
-      "variation": 52.98
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Team Inclusion",
+    "variation": 52.98
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "46-55",
-      "metric": "Team Inclusion",
-      "variation": 65.39
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Team Inclusion",
+    "variation": 65.39
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "56+",
-      "metric": "Team Inclusion",
-      "variation": 59.65
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Team Inclusion",
+    "variation": 59.65
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "Immigrant",
-      "metric": "Team Inclusion",
-      "variation": 59.75
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Team Inclusion",
+    "variation": 59.75
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "native",
-      "metric": "Team Inclusion",
-      "variation": 42.16
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Team Inclusion",
+    "variation": 42.16
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Majority",
-      "metric": "Team Inclusion",
-      "variation": 61.66
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Team Inclusion",
+    "variation": 61.66
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Minority",
-      "metric": "Team Inclusion",
-      "variation": 38.86
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Team Inclusion",
+    "variation": 38.86
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "hetero",
-      "metric": "Team Inclusion",
-      "variation": 66.89
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Team Inclusion",
+    "variation": 66.89
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "LBGTQ+",
-      "metric": "Team Inclusion",
-      "variation": 40.05
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Team Inclusion",
+    "variation": 40.05
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Male",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 32.62
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 32.62
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Female",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 51.79
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 51.79
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Non-Binary",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 55.47
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 55.47
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "18-25",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 52.54
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 52.54
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "26-35",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 50.05
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 50.05
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "36-45",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 44.13
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 44.13
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "46-55",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 36.75
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 36.75
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "56+",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 54.35
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 54.35
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "Immigrant",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 36.55
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 36.55
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "native",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 47.37
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 47.37
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Majority",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 32.96
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 32.96
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Minority",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 53.43
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 53.43
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "hetero",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 37.25
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 37.25
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "LBGTQ+",
-      "metric": "Cross-Functional Inclusion",
-      "variation": 52.97
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 52.97
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Male",
-      "metric": "Informal Influence",
-      "variation": 56.51
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Informal Influence",
+    "variation": 56.51
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Female",
-      "metric": "Informal Influence",
-      "variation": 57.55
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Informal Influence",
+    "variation": 57.55
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Non-Binary",
-      "metric": "Informal Influence",
-      "variation": 73.53
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Informal Influence",
+    "variation": 73.53
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "18-25",
-      "metric": "Informal Influence",
-      "variation": 36.67
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Informal Influence",
+    "variation": 36.67
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "26-35",
-      "metric": "Informal Influence",
-      "variation": 66.80
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Informal Influence",
+    "variation": 66.8
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "36-45",
-      "metric": "Informal Influence",
-      "variation": 61.96
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Informal Influence",
+    "variation": 61.96
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "46-55",
-      "metric": "Informal Influence",
-      "variation": 70.77
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Informal Influence",
+    "variation": 70.77
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "56+",
-      "metric": "Informal Influence",
-      "variation": 81.50
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Informal Influence",
+    "variation": 81.5
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "Immigrant",
-      "metric": "Informal Influence",
-      "variation": 45.35
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Informal Influence",
+    "variation": 45.35
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "native",
-      "metric": "Informal Influence",
-      "variation": 67.23
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Informal Influence",
+    "variation": 67.23
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Majority",
-      "metric": "Informal Influence",
-      "variation": 43.74
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Informal Influence",
+    "variation": 43.74
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Minority",
-      "metric": "Informal Influence",
-      "variation": 70.47
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Informal Influence",
+    "variation": 70.47
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "hetero",
-      "metric": "Informal Influence",
-      "variation": 49.32
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Informal Influence",
+    "variation": 49.32
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "LBGTQ+",
-      "metric": "Informal Influence",
-      "variation": 62.46
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Informal Influence",
+    "variation": 62.46
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Male",
-      "metric": "Work Habits",
-      "variation": 52.39
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Work Habits",
+    "variation": 52.39
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Female",
-      "metric": "Work Habits",
-      "variation": 58.08
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Work Habits",
+    "variation": 58.08
   },
   {
-      "demographic_category": "Gender",
-      "demographic_value": "Non-Binary",
-      "metric": "Work Habits",
-      "variation": 72.88
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Work Habits",
+    "variation": 72.88
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "18-25",
-      "metric": "Work Habits",
-      "variation": 62.13
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Work Habits",
+    "variation": 62.13
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "26-35",
-      "metric": "Work Habits",
-      "variation": 36.72
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Work Habits",
+    "variation": 36.72
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "36-45",
-      "metric": "Work Habits",
-      "variation": 62.43
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Work Habits",
+    "variation": 62.43
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "46-55",
-      "metric": "Work Habits",
-      "variation": 55.63
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Work Habits",
+    "variation": 55.63
   },
   {
-      "demographic_category": "Age Group",
-      "demographic_value": "56+",
-      "metric": "Work Habits",
-      "variation": 44.60
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Work Habits",
+    "variation": 44.6
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "Immigrant",
-      "metric": "Work Habits",
-      "variation": 47.12
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Work Habits",
+    "variation": 47.12
   },
   {
-      "demographic_category": "Background",
-      "demographic_value": "native",
-      "metric": "Work Habits",
-      "variation": 60.90
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Work Habits",
+    "variation": 60.9
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Majority",
-      "metric": "Work Habits",
-      "variation": 34.29
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Work Habits",
+    "variation": 34.29
   },
   {
-      "demographic_category": "Ethnicity",
-      "demographic_value": "Minority",
-      "metric": "Work Habits",
-      "variation": 76.57
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Work Habits",
+    "variation": 76.57
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "hetero",
-      "metric": "Work Habits",
-      "variation": 57.83
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Work Habits",
+    "variation": 57.83
   },
   {
-      "demographic_category": "Sexual Orientation",
-      "demographic_value": "LBGTQ+",
-      "metric": "Work Habits",
-      "variation": 49.07
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Work Habits",
+    "variation": 49.07
   }
 ]

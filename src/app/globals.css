@@ -69,13 +69,25 @@ h3 {
   font-family: var(--font-heading);
 }
 
-button {
-  /* Styling for ALL dropdown buttons */
+button,
+select {
+  /* Styling for ALL dropdown buttons and select elements */
   font-family: var(--font-body-copy);
   font-size: var(--fs-paragraph-S);
   background-color: white;
   border-style: none;
   border: 1.5px solid var(--c-mellow-gray);
   border-radius: 5px;
+}
+
+button {
   padding: 0.2rem 0.4rem;
+}
+
+select {
+  padding: 0.2rem 0;
+}
+
+select:focus {
+  outline: none;
 }
