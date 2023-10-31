@@ -1,4 +1,5 @@
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
+import OpptsCard from '../OpptsCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import styles from './frame.module.css'
 
@@ -41,10 +42,7 @@ export default function Frame() {
           </div>
           <GridItem className={styles.title}>Opportunities</GridItem>
           <div className={styles.rightColumnBottom}>
-            <GridItem className={styles.frame25}>Isolation</GridItem>
-            <GridItem className={styles.frame25}>Segregation</GridItem>
-            <GridItem className={styles.frame25}>Leadership access</GridItem>
-            <GridItem className={styles.frame25}>Onboarding</GridItem>
+            <OpptsCard />
           </div>
         </div>
       </div>
