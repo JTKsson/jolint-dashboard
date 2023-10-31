@@ -30,6 +30,7 @@
 .leftColumnTrends {
   display: grid;
   grid-template-rows: 1fr 10fr;
+  aspect-ratio: 1;
 }
 
 .rightColumn {
