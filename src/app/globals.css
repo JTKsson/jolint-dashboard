@@ -12,19 +12,22 @@
   --background-color-light-blue: #d4dde7;
 
   /* Chart colors */
-  --c-green: #4fbb4d;
-  --c-light-red: #ee6a76;
   --c-bright-blue: #0015ce;
-  --c-mellow-blue: #97b8d7;
-  --c-light-blue: #cedce9;
   --c-dark-gray: #b7b7b7;
-  --c-mellow-gray: #dadada;
+  --c-green: #4fbb4d;
+  --c-light-blue: #cedce9;
   --c-light-gray: #ededed;
+  --c-light-red: #ee6a76;
+  --c-mellow-blue: #97b8d7;
+  --c-mellow-gray: #dadada;
   --c-orange: #f4770a;
 
+  /* Card colors */
+  --c-card-bg: #fff;
+
   /* Text colors */
-  --text-color-dark: black;
-  --text-color-light: white;
+  --c-text-dark: black;
+  --c-text-light: white;
 
   /* Font styles */
   --font-heading: 'Space Grotesk', sans-serif;
@@ -36,6 +39,8 @@
   --fs-paragraph-L: 3rem;
   --fs-paragraph-M: 0.82rem;
   --fs-paragraph-S: 0.76rem;
+
+  
 }
 
 body {
