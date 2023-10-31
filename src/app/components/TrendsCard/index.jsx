@@ -8,9 +8,9 @@ const TrendsCard = () => {
     console.log(trendsData)
 
     return (
-        <div className={styles.trendContainer}>
-            {trendsData.map((trend, index) => (
-                <div key={index}>
+        <div className={styles.main}>
+            <div className={styles.trendContainer}>
+                {trendsData.map((trend, index) => (
                     <div className={styles.trendItem}>
                         <div className={styles.img}>
                             <Image
@@ -28,8 +28,8 @@ const TrendsCard = () => {
                         </div>
                         <p className={styles.text}>{trend.text}</p>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     )
 }
