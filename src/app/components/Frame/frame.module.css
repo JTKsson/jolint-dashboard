@@ -1,7 +1,7 @@
 .gridContainer {
   background-color: var(--background-color-light-blue);
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
 }
 
