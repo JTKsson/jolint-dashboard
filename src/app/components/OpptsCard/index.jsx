@@ -5,7 +5,7 @@ const OpptsCard = () => {
   return (
     <div className={styles.opptsContainer}>
       {opptsData.map((oppt, index) => (
-        <div className={styles.opptItem}>
+        <div>
           <div className={styles.title}>{oppt.title}</div>
           <p>{oppt.text}</p>
         </div>
