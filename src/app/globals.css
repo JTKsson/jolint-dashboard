@@ -26,8 +26,8 @@
   --c-card-bg: #fff;
 
   /* Text colors */
-  --c-text-dark: black;
-  --c-text-light: white;
+  --text-color-dark: black;
+  --text-color-light: white;
 
   /* Font styles */
   --font-heading: 'Space Grotesk', sans-serif;
