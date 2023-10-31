@@ -57,8 +57,7 @@
 .frame75,
 .frame50,
 .frame33,
-.leftBox,
-.rightColumnTop {
+.leftBox {
   background-color: white;
   border-radius: 30px;
   margin: 0.5rem;

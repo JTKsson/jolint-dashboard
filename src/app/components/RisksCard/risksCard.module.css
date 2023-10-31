@@ -9,6 +9,7 @@
   -o-border-radius: 10px;
   padding: 1.7rem;
   grid-gap: 1.7rem;
+  margin: 0.5rem;
 }
 
 .title {
