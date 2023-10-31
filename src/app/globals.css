@@ -39,8 +39,6 @@
   --fs-paragraph-L: 3rem;
   --fs-paragraph-M: 0.82rem;
   --fs-paragraph-S: 0.76rem;
-
-  
 }
 
 body {
@@ -75,7 +73,7 @@ h3 {
 }
 
 button {
-  /* Styling for ALL dropdown buttons */
+  /*StylingforALLdropdownbuttons*/
   font-family: var(--font-body-copy);
   font-size: var(--fs-paragraph-S);
   background-color: white;
@@ -83,4 +81,8 @@ button {
   border: 1.5px solid var(--c-mellow-gray);
   border-radius: 5px;
   padding: 0.2rem 0.4rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
