@@ -22,8 +22,8 @@ const TrendsCard = () => {
                                 alt={trend.trend === "pos"
                                     ? "Positive trend arrow icon"
                                     : "Negative trend arrow icon"}
-                                width={15}
-                                height={15}
+                                width={20}
+                                height={20}
                             />
                         </div>
                         <p className={styles.text}>{trend.text}</p>
