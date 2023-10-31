@@ -38,8 +38,7 @@
   margin-left: 1.2rem;
 }
 
-.rightColumnTop,
-.rightColumnBottom {
+.rightColumnTop {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
