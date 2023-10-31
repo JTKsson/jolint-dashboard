@@ -36,10 +36,6 @@ export default function Frame() {
           <GridItem className={styles.title}>Risks</GridItem>
           <div className={styles.rightColumnTop}>
             <RisksCard />
-            {/* <GridItem className={styles.frame25}>Isolation</GridItem>
-            <GridItem className={styles.frame25}>Segregation</GridItem>
-            <GridItem className={styles.frame25}>Leadership access</GridItem>
-            <GridItem className={styles.frame25}>Onboarding</GridItem> */}
           </div>
           <GridItem className={styles.title}>Opportunities</GridItem>
           <div className={styles.rightColumnBottom}>
