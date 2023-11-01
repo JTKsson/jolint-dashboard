@@ -39,12 +39,6 @@
   margin-left: 1.2rem;
 }
 
-.rightColumnTop,
-.rightColumnBottom {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .title {
   align-items: flex-end;
   display: flex;
@@ -62,6 +56,10 @@
   background-color: white;
   border-radius: 30px;
   margin: 0.5rem;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 @media (max-width: 768px) {

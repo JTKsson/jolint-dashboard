@@ -12,15 +12,17 @@
   --background-color-light-blue: #d4dde7;
 
   /* Chart colors */
-  --c-green: #4fbb4d;
-  --c-light-red: #ee6a76;
   --c-bright-blue: #0015ce;
-  --c-mellow-blue: #97b8d7;
-  --c-light-blue: #cedce9;
   --c-dark-gray: #b7b7b7;
-  --c-mellow-gray: #dadada;
+  --c-green: #4fbb4d;
+  --c-light-blue: #cedce9;
   --c-light-gray: #ededed;
+  --c-light-red: #ee6a76;
+  --c-mellow-blue: #97b8d7;
+  --c-mellow-gray: #dadada;
   --c-orange: #f4770a;
+
+  --c-card-bg: #fff;
 
   /* Text colors */
   --text-color-dark: black;
@@ -70,7 +72,7 @@ h3 {
 }
 
 button {
-  /* Styling for ALL dropdown buttons */
+  /*StylingforALLdropdownbuttons*/
   font-family: var(--font-body-copy);
   font-size: var(--fs-paragraph-S);
   background-color: white;
@@ -78,4 +80,8 @@ button {
   border: 1.5px solid var(--c-mellow-gray);
   border-radius: 5px;
   padding: 0.2rem 0.4rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

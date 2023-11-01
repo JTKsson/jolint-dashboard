@@ -1,4 +1,8 @@
+'use client'
+import { useEffect } from 'react'
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
+import OpptsCard from '../OpptsCard'
+import RisksCard from '../RisksCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import TrendsCard from '../TrendsCard'
 import styles from './frame.module.css'
@@ -8,6 +12,18 @@ const GridItem = ({ className, children }) => (
 )
 
 export default function Frame() {
+  useEffect(() => {
+    const handleResize = () => {
+      window.location.reload()
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
   return (
     <div className={styles.gridContainer}>
       <div className={styles.rowOne}>
@@ -35,17 +51,11 @@ export default function Frame() {
         <div className={styles.rightColumn}>
           <GridItem className={styles.title}>Risks</GridItem>
           <div className={styles.rightColumnTop}>
-            <GridItem className={styles.frame25}>Isolation</GridItem>
-            <GridItem className={styles.frame25}>Segregation</GridItem>
-            <GridItem className={styles.frame25}>Leadership access</GridItem>
-            <GridItem className={styles.frame25}>Onboarding</GridItem>
+            <RisksCard />
           </div>
           <GridItem className={styles.title}>Opportunities</GridItem>
           <div className={styles.rightColumnBottom}>
-            <GridItem className={styles.frame25}>Isolation</GridItem>
-            <GridItem className={styles.frame25}>Segregation</GridItem>
-            <GridItem className={styles.frame25}>Leadership access</GridItem>
-            <GridItem className={styles.frame25}>Onboarding</GridItem>
+            <OpptsCard />
           </div>
         </div>
       </div>
