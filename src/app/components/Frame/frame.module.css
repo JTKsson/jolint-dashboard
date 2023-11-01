@@ -1,5 +1,8 @@
+.gridFrame{
+  background-color: #fff;
+}
 .gridContainer {
-  background-color: var(--background-color-light-blue);
+  background: linear-gradient(180deg, #E6EFF7 0%, rgba(230, 239, 247, 0.00) 100%);
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -54,12 +57,15 @@
 .frame33,
 .leftBox {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 0.5rem;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 21, 206, 0.07));
+  box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
+
 }
 
 @media (max-width: 768px) {

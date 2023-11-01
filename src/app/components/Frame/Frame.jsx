@@ -26,6 +26,7 @@ export default function Frame() {
   }, [])
 
   return (
+    <div className={styles.gridFrame}>
     <div className={styles.gridContainer}>
       <div className={styles.rowOne}>
         <GridItem className={styles.frame75}>
@@ -62,6 +63,7 @@ export default function Frame() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
