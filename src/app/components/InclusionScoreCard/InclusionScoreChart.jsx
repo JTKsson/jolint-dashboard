@@ -72,6 +72,7 @@ export default function ChartComponent({ data }) {
           stroke="var(--c-mellow-blue)"
           fill="url(#colorPv)"
           strokeWidth={2.3}
+          // isAnimationActive={false} //***disable animation***
         />
         <Area
           type="monotone"
@@ -79,6 +80,7 @@ export default function ChartComponent({ data }) {
           stroke="var(--c-bright-blue)"
           fill="url(#colorUv)"
           strokeWidth={2.3}
+          // isAnimationActive={false} //***disable animation***
         />
         <Area
           type="monotone"
@@ -87,6 +89,7 @@ export default function ChartComponent({ data }) {
           fill="transparent"
           strokeWidth={2.3}
           strokeDasharray="4 4"
+          // isAnimationActive={false} //***disable animation***
         />
       </AreaChart>
     </ResponsiveContainer>
