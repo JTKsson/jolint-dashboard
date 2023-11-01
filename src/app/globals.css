@@ -73,16 +73,27 @@ h3 {
 }
 
 button {
-  /*StylingforALLdropdownbuttons*/
+  /* Styling for ALL dropdown buttons */
   font-family: var(--font-body-copy);
   font-size: var(--fs-paragraph-S);
   background-color: white;
   border-style: none;
   border: 1.5px solid var(--c-mellow-gray);
   border-radius: 5px;
+}
+
+button {
   padding: 0.2rem 0.4rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+select {
+  padding: 0.2rem 0;
+}
+
+select:focus {
+  outline: none;
 }

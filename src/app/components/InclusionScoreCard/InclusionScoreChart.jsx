@@ -85,7 +85,7 @@ export default function ChartComponent({ data }) {
         <Area
           type="monotone"
           dataKey="Benchmark"
-          stroke="#EE6A76"
+          stroke="var(--c-light-red)"
           fill="transparent"
           strokeWidth={2.3}
           strokeDasharray="4 4"
