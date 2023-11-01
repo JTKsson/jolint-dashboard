@@ -1,29 +1,41 @@
 .main {
-  flex-direction: column;
-  margin: 5rem 2rem;
   color: var(--text-color-light);
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  height: 95%;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
 .userContainer {
-  margin-bottom: 6rem;
+  margin: 2rem 0 4rem 0;
 }
 
-.main > div:last-child {
-  margin-top: 0.8rem;
-}
 
-.textLabel {
+.buttonItem {
   display: flex;
   gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-.textLabel p {
+.buttonItem p {
   font-size: 1rem;
 }
 
-.textLabel:hover {
+.buttonItem:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+
+.main > div:last-child { /* sign out item */
+  border-top: 1px solid var(--c-mellow-gray);
 }
 
 @media (max-width: 768px) {
@@ -43,7 +55,7 @@
     margin: 0;
   }
 
-  .textLabel {
+  .buttonItem {
     align-items: center;
     display: flex;
     gap: 0.5rem;
