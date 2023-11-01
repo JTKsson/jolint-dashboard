@@ -3,7 +3,7 @@ import styles from './inclusionScoreCard.module.css'
 import Image from 'next/image'
 import { BsFillCircleFill } from 'react-icons/bs'
 
-export default function InclusionScoreCard({ teamName }) {
+export default function InclusionScoreNav({ teamName }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   const toggleDropdown = () => {

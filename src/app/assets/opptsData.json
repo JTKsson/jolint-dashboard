@@ -1,19 +1,18 @@
 [
-    {
-      "title": "Isolation",
-      "text": "Introduce team-building activities"
-    },
-    {
-      "title": "Segregation",
-      "text": "Foster diverse project teams to improve innovation"
-    },
-    {
-      "title": "Leadership access",
-      "text": "Mentorship program for women"
-    },
-    {
-      "title": "Onboarding",
-      "text": "Events where new-hires can meet people form different departments"
-    }
-  ]
-  
+  {
+    "title": "Isolation",
+    "text": "Introduce team-building activities"
+  },
+  {
+    "title": "Segregation",
+    "text": "Foster diverse project teams to improve innovation"
+  },
+  {
+    "title": "Leadership access",
+    "text": "Mentorship program for women"
+  },
+  {
+    "title": "Onboarding",
+    "text": "Events where new-hires can meet people form different departments"
+  }
+]

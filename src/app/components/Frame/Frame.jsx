@@ -1,8 +1,9 @@
 'use client'
 import { useEffect } from 'react'
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
-import OpptsCard from '../OpptsCard'
 import RisksCard from '../RisksCard'
+import OpptsCard from '../OpptsCard'
+import NewHiresCard from '../NewHiresCard/NewHiresCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import TrendsCard from '../TrendsCard'
 import styles from './frame.module.css'
@@ -38,7 +39,9 @@ export default function Frame() {
       <div className={styles.rowTwo}>
         <div className={styles.leftColumn}>
           <GridItem className={styles.frame50}>TBD</GridItem>
-          <GridItem className={styles.frame50}>Inclusion of new-hires</GridItem>
+          <GridItem className={styles.frame50}>
+            <NewHiresCard />
+          </GridItem>
         </div>
         <GridItem className={styles.frame33}>Differences</GridItem>
       </div>
@@ -46,7 +49,9 @@ export default function Frame() {
       <div className={styles.rowThree}>
         <div className={styles.leftColumnTrends}>
           <GridItem className={styles.title}>Trends</GridItem>
-          <GridItem className={styles.leftBox}><TrendsCard /></GridItem>
+          <GridItem className={styles.leftBox}>
+            <TrendsCard />
+          </GridItem>
         </div>
         <div className={styles.rightColumn}>
           <GridItem className={styles.title}>Risks</GridItem>
