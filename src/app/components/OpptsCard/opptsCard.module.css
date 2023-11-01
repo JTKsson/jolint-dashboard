@@ -1,26 +1,24 @@
 .opptsContainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: var(--c-card-bg);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 1.7rem;
-    grid-gap: 1.7rem;
-    margin: 0.5rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 21, 206, 0.07));
-    box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--c-card-bg);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 1.7rem;
+  grid-gap: 1.7rem;
+  margin: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 21, 206, 0.07));
+  box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
+}
 
-  }
-  
-  .title {
-    font-family: var(--font-heading);
-    font-size: var(--fs-paragraph-M);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 0.82rem;
-  }
-  
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-paragraph-M);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 0.82rem;
+}
