@@ -14,9 +14,12 @@
   margin: 0;
 }
 
+.title {
+  width: 70%;
+}
+
 .button {
   display: flex;
-  gap: 15px;
   margin-top: 0.2rem;
 }
 
