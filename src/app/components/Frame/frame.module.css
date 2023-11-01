@@ -30,6 +30,7 @@
 .leftColumnTrends {
   display: grid;
   grid-template-rows: 1fr 10fr;
+  aspect-ratio: 1;
 }
 
 .rightColumn {
@@ -76,5 +77,10 @@
   .rowThree,
   .rightColumn {
     margin: 1rem 0;
+  }
+
+  .leftColumnTrends {
+    max-height: 17.5rem; /*280px*/
+    aspect-ratio: 0;
   }
 }
