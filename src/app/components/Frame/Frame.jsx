@@ -53,11 +53,11 @@ export default function Frame() {
         </div>
         <div className={styles.rightColumn}>
           <GridItem className={styles.title}>Risks</GridItem>
-          <div className={styles.rightColumnTop}>
+          <div className={styles.frame50}>
             <RisksCard />
           </div>
           <GridItem className={styles.title}>Opportunities</GridItem>
-          <div className={styles.rightColumnBottom}>
+          <div className={styles.frame50}>
             <OpptsCard />
           </div>
         </div>
