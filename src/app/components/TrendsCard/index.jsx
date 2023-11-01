@@ -15,8 +15,8 @@ const TrendsCard = () => {
               <Image
                 src={
                   trend.trend === 'pos'
-                    ? '/images/positive-arrow-green-icon.svg'
-                    : '/images/negative-arrow-red-icon.svg'
+                    ? '/images/positive-arrow-green-icon-filled.svg'
+                    : '/images/negative-arrow-red-icon-filled.svg'
                 }
                 alt={
                   trend.trend === 'pos'

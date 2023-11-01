@@ -51,7 +51,9 @@ export default function Frame() {
           <div className={styles.leftColumnTrends}>
             <GridItem className={styles.title}>Trends</GridItem>
             <GridItem className={styles.leftBox}>
+            
               <TrendsCard />
+          
             </GridItem>
           </div>
           <div className={styles.rightColumn}>
