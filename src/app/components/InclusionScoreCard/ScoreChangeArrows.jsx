@@ -13,8 +13,8 @@ export default function ScoreChangeArrows({ lastMonth, benchmark }) {
           <Image
             src={
               lastMonth > 0
-                ? '/images/positive-arrow-green-icon.svg'
-                : '/images/negative-arrow-red-icon.svg'
+                ? '/images/positive-arrow-green-icon-filled.svg'
+                : '/images/negative-arrow-red-icon-filled.svg'
             }
             alt={lastMonth > 0 ? 'Green arrow icon' : 'Red arrow icon'}
             width={15}
@@ -33,8 +33,8 @@ export default function ScoreChangeArrows({ lastMonth, benchmark }) {
           <Image
             src={
               benchmark > 0
-                ? '/images/positive-arrow-green-icon.svg'
-                : '/images/negative-arrow-red-icon.svg'
+                ? '/images/positive-arrow-green-icon-filled.svg'
+                : '/images/negative-arrow-red-icon-filled.svg'
             }
             alt={benchmark > 0 ? 'Green arrow icon' : 'Red arrow icon'}
             width={15}
