@@ -10,6 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import NewHiresNav from './NewHiresNav'
+import styles from './newHiresCard.module.css'
 
 export default function NewHiresChart() {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -47,7 +48,6 @@ export default function NewHiresChart() {
 
   return (
     <>
-      <h1>Inclusion of new-hires</h1>
       <NewHiresNav
         uniqueCategories={uniqueCategories}
         selectedCategory={selectedCategory}
@@ -56,10 +56,10 @@ export default function NewHiresChart() {
         selectedMetric={selectedMetric}
         handleMetricChange={handleMetricChange}
       />
-      <ResponsiveContainer width="100%" height={250}>
+      <ResponsiveContainer width="100%" height={150}>
         <AreaChart
           data={filteredData}
-          margin={{ top: 0, right: 10, left: -25, bottom: -7 }}
+          margin={{ top: 0, right: 10, left: -38, bottom: -7 }}
         >
           <defs>
             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

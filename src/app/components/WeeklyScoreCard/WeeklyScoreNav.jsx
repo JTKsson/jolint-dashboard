@@ -12,11 +12,11 @@ export default function InclusionScoreCard({ thisWeek }) {
   return (
     <div className={styles.nav}>
       <div className={styles.title}>
-        <h2>Timeline</h2>
+        <h2>Weekly inclusion score</h2>
       </div>
       <div className={styles.dropdown}>
         <button onClick={toggleDropdown} className={styles.button}>
-          <div>This week {thisWeek}</div>
+          <div>This week</div>
           <div>
             <Image
               src="/images/arrow-down-s-line.svg"
