@@ -20,21 +20,32 @@
   margin-top: 0.3rem;
 }
 
+.image {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .main {
     display: flex;
-    flex-direction: row;
-    gap: 0;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
   }
 
   .main > div:nth-child(2) {
-    display: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textLabel {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .textLabel p {
+    text-align: right;
+    margin-right: -2rem;
   }
 
   .image {
-    display: flex;
-    margin-left: -0.4rem;
-    width: 70%;
+    width: 60%;
   }
 }
