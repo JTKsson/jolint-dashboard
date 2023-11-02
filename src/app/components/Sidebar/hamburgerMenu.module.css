@@ -1,0 +1,36 @@
+.hamburgerButton {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburgerLine {
+  background-color: white;
+  height: 2px;
+  margin: 5px 0;
+  width: 25px;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.menuOpen {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: block;
+    margin-top: 0.6rem;
+  }
+
+  .menuItems {
+    display: none;
+  }
+
+  .menuOpen {
+    display: flex;
+  }
+}
