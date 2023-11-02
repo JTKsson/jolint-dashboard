@@ -44,11 +44,11 @@
   opacity: 0.5;
 }
 
-.listItems > div:last-child { /* sign out item */
+.listItems > div:last-child {
+  /* sign out item */
   border-top: 1px solid var(--c-mellow-gray);
   margin: 18.75rem 1.5rem 0;
 }
-
 
 @media screen and (max-width: 768px) {
   .main {
@@ -58,7 +58,7 @@
   .header {
     margin: -3rem 0;
   }
-  
+
   .logo {
     display: block;
     margin-left: -0.8rem;
@@ -77,7 +77,8 @@
     margin: -0.5rem 0;
   }
 
-  .listItems > div:last-child { /* sign out item */
+  .listItems > div:last-child {
+    /* sign out item */
     border-top: 1px solid var(--c-mellow-gray);
     margin: 1.5rem 0 0;
   }

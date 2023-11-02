@@ -1,16 +1,16 @@
 'use client'
-import React, { useState } from 'react';
-import Image from 'next/image';
-import styles from './sidebar.module.css';
-import styles2 from './hamburgerMenu.module.css';
-import UserProfile from '../UserProfile/UserProfile';
+import { useState } from 'react'
+import Image from 'next/image'
+import styles from './sidebar.module.css'
+import styles2 from './hamburgerMenu.module.css'
+import UserProfile from '../UserProfile/UserProfile'
 
 export default function Sidebar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+    setMenuOpen(!menuOpen)
+  }
 
   return (
     <div className={styles.main}>
@@ -30,9 +30,11 @@ export default function Sidebar() {
             <div className={styles2.hamburgerLine} />
           </div>
         </div>
-        
+
         {/* Menu items */}
-        <div className={`${styles2.menuItems} ${menuOpen ? styles2.menuOpen : ''}`}>
+        <div
+          className={`${styles2.menuItems} ${menuOpen ? styles2.menuOpen : ''}`}
+        >
           <div className={styles.listItems}>
             <div>
               <div className={styles.userContainer}>
@@ -44,7 +46,7 @@ export default function Sidebar() {
                   alt="Dashboard icon"
                   width={20}
                   height={20}
-                  />
+                />
                 <p>Dashboard</p>
               </div>
               <div className={styles.buttonItem}>
@@ -53,7 +55,7 @@ export default function Sidebar() {
                   alt="Settings icon"
                   width={20}
                   height={20}
-                  />
+                />
                 <p>Settings</p>
               </div>
             </div>
@@ -64,7 +66,7 @@ export default function Sidebar() {
                   alt="Signout icon"
                   width={20}
                   height={20}
-                  />
+                />
                 <p>Sign out</p>
               </div>
             </div>
@@ -72,5 +74,5 @@ export default function Sidebar() {
         </div>
       </div>
     </div>
-  );
+  )
 }
