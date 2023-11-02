@@ -28,6 +28,9 @@ export default function Frame() {
   return (
     <div className={styles.gridFrame}>
       <div className={styles.gridContainer}>
+        <div className={styles.heading}>
+          <h1>Dashboard</h1>
+        </div>
         <div className={styles.rowOne}>
           <GridItem className={styles.frame75}>
             <InclusionScoreCard />
