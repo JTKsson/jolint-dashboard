@@ -47,27 +47,23 @@ export default function Frame() {
           <GridItem className={styles.frame33}>Differences</GridItem>
         </div>
 
-        <div className={styles.rowThree}>
-          <div className={styles.leftColumnTrends}>
-            <GridItem className={styles.title}>Trends</GridItem>
-            <GridItem className={styles.leftBox}>
-            
-              <TrendsCard />
-          
-            </GridItem>
+      <div className={styles.rowThree}>
+        <div className={styles.leftColumnTrends}>
+          <GridItem className={styles.title}>Trends</GridItem>
+          <GridItem className={styles.leftBox}><TrendsCard /></GridItem>
+        </div>
+        <div className={styles.rightColumn}>
+          <GridItem className={styles.title}>Risks</GridItem>
+          <div className={styles.frame50}>
+            <RisksCard />
           </div>
-          <div className={styles.rightColumn}>
-            <GridItem className={styles.title}>Risks</GridItem>
-            <div className={styles.rightColumnTop}>
-              <RisksCard />
-            </div>
-            <GridItem className={styles.title}>Opportunities</GridItem>
-            <div className={styles.rightColumnBottom}>
-              <OpptsCard />
-            </div>
+          <GridItem className={styles.title}>Opportunities</GridItem>
+          <div className={styles.frame50}>
+            <OpptsCard />
           </div>
         </div>
       </div>
-    </div>
+      </div>
+     </div> 
   )
 }
