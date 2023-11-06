@@ -53,7 +53,7 @@ export default function WeeklyInclusionScoreCard() {
                 className={styles.icon}
               />
               <div className={styles.tooltip}>
-                <p>This is some tooltip text.</p>
+                <p><b>Team Interactions:</b> Evaluates the frequency and quality of communications between team members.</p>
               </div>
             </div>
           </div>
@@ -74,13 +74,18 @@ export default function WeeklyInclusionScoreCard() {
         <div className={styles.topRowContainer}>
           <div className={styles.infoLeftContainer}>
             <p>Cross-functional interaction</p>
-            <Image
-              src="/images/info-icon.svg"
-              alt="Info icon"
-              width={15}
-              height={15}
-              className={styles.icon}
-            />
+            <div className={styles.iconContainer}>
+              <Image
+                src="/images/info-icon.svg"
+                alt="Info icon"
+                width={15}
+                height={15}
+                className={styles.icon}
+              />
+              <div className={styles.tooltip}>
+                <p><b>Cross-functional Interaction:</b> Measures the engagement between different departments or functions, showing how well teams are working cross-functionally</p>
+              </div>
+            </div>
           </div>
           <ScoreChangeArrows lastMonth={percentageChange2} />
         </div>
@@ -99,13 +104,18 @@ export default function WeeklyInclusionScoreCard() {
         <div className={styles.topRowContainer}>
           <div className={styles.infoLeftContainer}>
             <p>Informal influence</p>
-            <Image
-              src="/images/info-icon.svg"
-              alt="Info icon"
-              width={15}
-              height={15}
-              className={styles.icon}
-            />
+            <div className={styles.iconContainer}>
+              <Image
+                src="/images/info-icon.svg"
+                alt="Info icon"
+                width={15}
+                height={15}
+                className={styles.icon}
+              />
+              <div className={styles.tooltip}>
+                <p><b>Informal Influence:</b> Unofficial impact individuals have within the organisation.</p>
+              </div>
+            </div>
           </div>
           <ScoreChangeArrows lastMonth={percentageChange3} />
         </div>
@@ -124,13 +134,18 @@ export default function WeeklyInclusionScoreCard() {
         <div className={styles.topRowContainer}>
           <div className={styles.infoLeftContainer}>
             <p>Work habits</p>
-            <Image
-              src="/images/info-icon.svg"
-              alt="Info icon"
-              width={15}
-              height={15}
-              className={styles.icon}
-            />
+            <div className={styles.iconContainer}>
+              <Image
+                src="/images/info-icon.svg"
+                alt="Info icon"
+                width={15}
+                height={15}
+                className={styles.icon}
+              />
+              <div className={styles.tooltip}>
+                <p><b>Work Habits:</b> Assesses the flexibility and inclusivity of work routines, such as meeting times, length of days, and work on weekends.</p>
+              </div>
+            </div>
           </div>
           <ScoreChangeArrows lastMonth={percentageChange4} />
         </div>
