@@ -4,14 +4,11 @@ import trendsData from "../../assets/trendsData.json"
 import styles from "./trendsCard.module.css"
 
 const TrendsCard = () => {
-
-    console.log(trendsData)
-
     return (
         <div className={styles.main}>
             <div className={styles.trendContainer}>
                 {trendsData.map((trend, index) => (
-                    <div className={styles.trendItem}>
+                    <div className={styles.trendItem} key={index}>
                         <div className={styles.img}>
                             <Image
                                 src={
