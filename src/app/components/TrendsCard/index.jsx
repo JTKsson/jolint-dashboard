@@ -11,7 +11,7 @@ const TrendsCard = () => {
         <div className={styles.main}>
             <div className={styles.trendContainer}>
                 {trendsData.map((trend, index) => (
-                    <div className={styles.trendItem}>
+                    <div className={styles.trendItem} key={index}>
                         <div className={styles.img}>
                             <Image
                                 src={
