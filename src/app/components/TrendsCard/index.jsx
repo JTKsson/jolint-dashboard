@@ -4,9 +4,6 @@ import trendsData from "../../assets/trendsData.json"
 import styles from "./trendsCard.module.css"
 
 const TrendsCard = () => {
-
-    console.log(trendsData)
-
     return (
         <div className={styles.main}>
             <div className={styles.trendContainer}>
