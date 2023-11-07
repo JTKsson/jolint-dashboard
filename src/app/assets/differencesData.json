@@ -1,0 +1,338 @@
+[
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Team Inclusion",
+    "variation": 53.1173113189
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Team Inclusion",
+    "variation": 42.008177974
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Team Inclusion",
+    "variation": 45.9125760396
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Team Inclusion",
+    "variation": 38.1924863752
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Team Inclusion",
+    "variation": 56.5897195942
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Team Inclusion",
+    "variation": 52.9797421484
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Team Inclusion",
+    "variation": 65.3888535223
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Team Inclusion",
+    "variation": 59.6451771796
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Team Inclusion",
+    "variation": 59.7454794937
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Team Inclusion",
+    "variation": 42.1600439183
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Team Inclusion",
+    "variation": 61.6632999411
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Team Inclusion",
+    "variation": 38.864077121
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Team Inclusion",
+    "variation": 66.8922864617
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Team Inclusion",
+    "variation": 40.0507788236
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 32.6238268002
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 51.7913377796
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 55.4690889514
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 52.539788268
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 50.0483417014
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 44.1293062591
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 36.7485319676
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 54.350892799
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 36.5510560611
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 47.3689982771
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 32.9616120563
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 53.4314739285
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 37.2506794346
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Cross-Functional Inclusion",
+    "variation": 52.9658782298
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Informal Influence",
+    "variation": 56.5076698139
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Informal Influence",
+    "variation": 57.5462143067
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Informal Influence",
+    "variation": 73.530650076
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Informal Influence",
+    "variation": 36.666441595
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Informal Influence",
+    "variation": 66.7958228466
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Informal Influence",
+    "variation": 61.9555492148
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Informal Influence",
+    "variation": 70.7663887485
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Informal Influence",
+    "variation": 81.503855032
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Informal Influence",
+    "variation": 45.3519920013
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Informal Influence",
+    "variation": 67.232692314
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Informal Influence",
+    "variation": 43.7370640483
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Informal Influence",
+    "variation": 70.4662611713
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Informal Influence",
+    "variation": 49.3180261274
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Informal Influence",
+    "variation": 62.4639544742
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "metric": "Work Habits",
+    "variation": 52.3947674048
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "metric": "Work Habits",
+    "variation": 58.0797012326
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "metric": "Work Habits",
+    "variation": 72.8761309064
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "metric": "Work Habits",
+    "variation": 62.1345262808
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "metric": "Work Habits",
+    "variation": 36.7225074271
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "metric": "Work Habits",
+    "variation": 62.4349822219
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "metric": "Work Habits",
+    "variation": 55.6284224399
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "metric": "Work Habits",
+    "variation": 44.5990299105
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "metric": "Work Habits",
+    "variation": 47.1241828766
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "metric": "Work Habits",
+    "variation": 60.9035612338
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "metric": "Work Habits",
+    "variation": 34.2949227816
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "metric": "Work Habits",
+    "variation": 76.566395546
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "metric": "Work Habits",
+    "variation": 57.8250769513
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "metric": "Work Habits",
+    "variation": 49.0728746864
+  }
+]
