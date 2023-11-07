@@ -1,15 +1,42 @@
 'use client'
-import { BarChart, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts'
-import differencesData from '../../assets/differencesData.json'
+import {
+  BarChart,
+  XAxis,
+  YAxis,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from 'recharts'
 
+export default function DifferencesCardChart({ data }) {
+  const roundedData = data.map((item) => ({
+    ...item,
+    variation: item['variation'].toFixed(2),
+  }))
 
-export default function DifferencesCardChart(data) {
-    // console.log(differencesData);
+  const results = []
 
-    const roundedData = differencesData.map((item) => ({
-        ...item,
-        'variation': Math.floor(item['variation'])
-    }))
-    console.log(roundedData);
-    return <div>DifferencesCardChart</div>
+  const uniqueCategories = [
+    ...new Set(roundedData.map((item) => item.demographic_category)),
+  ]
+  const uniqueMetrics = [...new Set(data.map((item) => item.metric))]
+
+  uniqueCategories.forEach((category) => {
+    uniqueMetrics.forEach((metric) => {
+      const filteredData = roundedData.filter(
+        (item) =>
+          item.demographic_category === category && item.metric === metric,
+      )
+
+      const result = { metric, demographic_category: category }
+      filteredData.forEach((item) => {
+        result[item.demographic_value] = item.variation
+      })
+
+      results.push(result)
+    })
+    console.log(results)
+  })
+  return
+
 }
