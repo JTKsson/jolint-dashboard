@@ -47,7 +47,10 @@
 .listItems > div:last-child {
   /* sign out item */
   border-top: 1px solid var(--c-mellow-gray);
-  margin: 18.75rem 1.5rem 0;
+  bottom: 1rem;
+  margin: 0 1.5rem;
+  position: absolute;
+  width: 75%;
 }
 
 @media screen and (max-width: 768px) {
@@ -73,6 +76,10 @@
     justify-content: flex-end;
   }
 
+  .buttonItem:nth-child(3) {
+    margin-bottom:  1.4rem;
+  }
+
   .userContainer {
     margin: -0.5rem 0;
   }
@@ -80,6 +87,8 @@
   .listItems > div:last-child {
     /* sign out item */
     border-top: 1px solid var(--c-mellow-gray);
-    margin: 1.5rem 0 0;
+    margin: 0;
+    position: static;
+    width: 100%;
   }
 }
