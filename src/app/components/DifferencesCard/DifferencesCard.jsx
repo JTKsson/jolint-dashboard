@@ -1,12 +1,12 @@
 'use client'
 import differencesData from '../../assets/differencesData.json'
-import DifferencesCardChart from './DifferencesCardChart'
+import DifferencesChart from './DifferencesChart'
+import DifferencesNav from './DifferencesNav'
 
 export default function DifferencesCard() {
-  return <div>
-  <h1>DifferencesCard</h1>
-  <div>
-    <DifferencesCardChart data={differencesData} />
-  </div>
-  </div>
+  return (
+    <div>
+        <DifferencesChart data={differencesData} />
+    </div>
+  )
 }
