@@ -27,7 +27,7 @@
 .rowThree {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .leftColumn {
@@ -71,6 +71,13 @@
   box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
 }
 
+.frame75,
+.frame50,
+.frame33 {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .gridContainer,
   .rowOne,
@@ -86,9 +93,5 @@
   .rowThree,
   .rightColumn {
     margin: 1rem 0;
-  }
-
-  .leftColumnTrends {
-    aspect-ratio: 0;
   }
 }
