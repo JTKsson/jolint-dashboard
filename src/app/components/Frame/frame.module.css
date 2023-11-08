@@ -1,6 +1,7 @@
 .gridFrame {
   background-color: #fff;
 }
+
 .gridContainer {
   background: linear-gradient(180deg, #e6eff7 0%, rgba(230, 239, 247, 0) 100%);
   display: flex;
@@ -78,6 +79,17 @@
   align-items: center;
 }
 
+@media (max-width: 1335px) {
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+  }
+}
+
 @media (max-width: 768px) {
   .gridContainer,
   .rowOne,
@@ -93,5 +105,9 @@
   .rowThree,
   .rightColumn {
     margin: 1rem 0;
+  }
+
+  .leftColumnTrends {
+    aspect-ratio: 0;
   }
 }
