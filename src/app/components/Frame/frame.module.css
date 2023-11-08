@@ -27,12 +27,12 @@
 .rowThree {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .leftColumn {
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr;
 }
 
 .leftColumnTrends {
@@ -69,6 +69,17 @@
   -o-border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 21, 206, 0.07));
   box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1335px) {
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+  }
 }
 
 @media (max-width: 768px) {
