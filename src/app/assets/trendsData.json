@@ -1,43 +1,34 @@
 [
-    {
-        "trend": "pos",
-        "text": "Working on weekends has decreased by 20%"
-
-    },
-    {
-        "trend": "pos",
-        "text": "Managers whose close interactions are diverse have more inclusive teams"
-
-    },
-    {
-        "trend": "pos",
-        "text": "Influence gap between genders is closing"
-
-    },
-    {
-        "trend": "neg",
-        "text": "Most gatekeepers are men"
-
-    },
-    {
-        "trend": "neg",
-        "text": "New hires with immigrant background have less broad networks after 1 year"
-
-    },
-    {
-        "trend": "neg",
-        "text": "Praesent finibus malesuada ipsum, non volutpat leo condimentum at. "
-    },
-    {
-        "trend": "neg",
-        "text": "Vestibulum tempor facilisis bibendum. Mauris congue quis velit in rhoncus. I"
-
-    },
-    {
-        "trend": "neg",
-        "text": "Curabitur sem ligula, vestibulum at sagittis varius, euismod ut erat. "
-
-    }
-
-
+  {
+    "trend": "pos",
+    "text": "Working on weekends has decreased by 20%"
+  },
+  {
+    "trend": "pos",
+    "text": "Managers whose close interactions are diverse have more inclusive teams"
+  },
+  {
+    "trend": "pos",
+    "text": "Influence gap between genders is closing"
+  },
+  {
+    "trend": "neg",
+    "text": "Most gatekeepers are men"
+  },
+  {
+    "trend": "neg",
+    "text": "New hires with immigrant background have less broad networks after 1 year"
+  },
+  {
+    "trend": "neg",
+    "text": "Praesent finibus malesuada ipsum, non volutpat leo condimentum at. "
+  },
+  {
+    "trend": "neg",
+    "text": "Vestibulum tempor facilisis bibendum. Mauris congue quis velit in rhoncus. I"
+  },
+  {
+    "trend": "neg",
+    "text": "Curabitur sem ligula, vestibulum at sagittis varius, euismod ut erat. "
+  }
 ]
