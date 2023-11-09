@@ -89,6 +89,12 @@
   text-align: center;
 }
 
+@media (max-width: 1535px) {
+  .main {
+    margin-bottom: 6rem;
+  }
+}
+
 @media (max-width: 768px) {
   .main {
     margin-bottom: 6rem;
