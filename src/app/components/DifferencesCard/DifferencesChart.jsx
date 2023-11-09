@@ -43,6 +43,7 @@ export default function DifferencesCardChart({ data }) {
   }))
 
   const results = []
+  let selectedData = []
 
   const uniqueMetrics = [...new Set(data.map((item) => item.metric))]
 
@@ -63,13 +64,20 @@ export default function DifferencesCardChart({ data }) {
 
     // console.log("RESULTS WorkCopy", results)
 
-    const selectedData = results.filter(
+    selectedData = results.filter(
       (item) =>
           item.demographic_category === selectedCategory
   )
 
-  console.log("selectedData", selectedData)
+//   console.log("selectedData", selectedData)
   })
+
+  const plotData = selectedData.map(obj => {
+    const { demographic_category, ...plotObj} = obj;
+    return plotObj;
+  })
+
+  console.log(plotData);
   return (
    <>
         <DifferencesNav 
