@@ -94,6 +94,7 @@ export default function DifferencesCardChart({ data }) {
             verticalAlign="top"
             align="right"
             iconType="circle"
+            iconSize={10}
           />
           <Tooltip />
           {selectedCategory === 'Gender' && (
