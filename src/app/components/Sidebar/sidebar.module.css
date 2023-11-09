@@ -53,6 +53,24 @@
   width: 75%;
 }
 
+.signOutItem {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.signOutItem p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.signOutItem:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 768px) {
   .main {
     margin: 0 3rem 0.5rem;
@@ -90,5 +108,9 @@
     margin: 0;
     position: static;
     width: 100%;
+  }
+
+  .signOutItem {
+    justify-content: flex-end;
   }
 }
