@@ -28,14 +28,6 @@
   padding-right: 0.75rem;
 }
 
-@media (max-width: 1350px) {
-  .trendContainer {
-    max-height: 27.5rem;
-    overflow: scroll;
-    aspect-ratio: 0;
-  }
-}
-
 @media (max-width: 768px) {
   .trendContainer {
     max-height: 17.5rem; /*280px*/

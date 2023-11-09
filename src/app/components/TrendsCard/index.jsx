@@ -1,7 +1,7 @@
 'use client'
-import Image from "next/image"
-import trendsData from "../../assets/trendsData.json"
-import styles from "./trendsCard.module.css"
+import Image from 'next/image'
+import trendsData from '../../assets/trendsData.json'
+import styles from './trendsCard.module.css'
 
 const TrendsCard = () => {
     return (
