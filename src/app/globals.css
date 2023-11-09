@@ -108,3 +108,7 @@ select {
 select:focus {
   outline: none;
 }
+
+.legendText {
+  color: black;
+}

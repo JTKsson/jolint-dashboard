@@ -14,6 +14,26 @@ import {
 } from 'recharts'
 import DifferencesNav from './DifferencesNav'
 
+const CustomLegend = ({ data, iconColors }) => {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
+      {data.map((entry, index) => (
+        <div key={`legend-${index}`} style={{ marginRight: 20, display: 'flex', alignItems: 'center' }}>
+          <div
+            style={{
+              width: 10,
+              height: 10,
+              backgroundColor: iconColors[index],
+              marginRight: 5,
+            }}
+          />
+          <span style={{ color: 'black' }}>{entry}</span>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export default function DifferencesCardChart({ data }) {
   const [selectedCategory, setSelectedCategory] = useState(
     data[0]?.demographic_category,
@@ -66,6 +86,13 @@ export default function DifferencesCardChart({ data }) {
     return plotObj
   })
 
+  const iconColors = [
+    'var(--c-mellow-blue)',
+    'var(--c-light-red)',
+    'var(--c-orange)',
+    // Add more colors as needed
+  ];
+
   return (
     <>
       <DifferencesNav
@@ -77,6 +104,11 @@ export default function DifferencesCardChart({ data }) {
         <BarChart
           data={plotData}
           margin={{ top: 0, right: 10, left: -38, bottom: -7 }}
+          legend={{
+            formatter: (value, entry, index) => (
+              <span style={{ color: '#000' }}>{value}</span>
+            ),
+          }}
         >
           <XAxis
             dataKey="metric"
@@ -94,6 +126,7 @@ export default function DifferencesCardChart({ data }) {
             verticalAlign="top"
             align="right"
             iconType="circle"
+            legend={{ text: { fill: 'black' } }} 
           />
           <Tooltip />
           {selectedCategory === 'Gender' && (
@@ -137,6 +170,7 @@ export default function DifferencesCardChart({ data }) {
           )}
         </BarChart>
       </ResponsiveContainer>
+      <CustomLegend data={['Male', 'Female', 'Non-Binary']} iconColors={iconColors} />
     </>
   )
 }
