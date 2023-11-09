@@ -28,11 +28,10 @@
 }
 
 .buttonItem {
-  align-items: center;
   display: flex;
   gap: 0.5rem;
   justify-content: center;
-  padding: 0.7rem;
+  margin-top: 1rem;
 }
 
 .buttonItem p {
@@ -40,24 +39,18 @@
   font-weight: 700;
 }
 
-.buttonItem:hover svg path {
-  fill: var(--background-color-dark-navy);
-}
-
 .buttonItem:hover {
-  background-color: white;
-  border-radius: 10px;
-  color: var(--background-color-dark-navy);
   cursor: pointer;
-  left: -1rem;
-  padding: 0.7rem 0 0.7rem 2rem;
-  position: relative;
+  opacity: 0.5;
 }
 
 .listItems > div:last-child {
   /* sign out item */
   border-top: 1px solid var(--c-mellow-gray);
-  margin: 17rem 1.5rem 0;
+  bottom: 1rem;
+  margin: 0 1.5rem;
+  position: absolute;
+  width: 75%;
 }
 
 .signOutItem {
@@ -93,6 +86,7 @@
     padding-bottom: 1rem;
   }
 
+  .buttonItem,
   .userContainer {
     align-items: center;
     display: flex;
@@ -100,24 +94,8 @@
     justify-content: flex-end;
   }
 
-  .buttonItem {
-    display: flex;
-    justify-content: right;
-    padding: 0.5rem 0;
-  }
-
-  .buttonItem:hover {
-    background-color: transparent;
-    border-radius: 10px;
-    color: white;
-    left: 0;
-    opacity: 0.5;
-    padding: 0.5rem 0;
-    position: relative;
-  }
-
-  .buttonItem:hover svg path {
-    fill: white;
+  .buttonItem:nth-child(3) {
+    margin-bottom:  1.4rem;
   }
 
   .userContainer {
@@ -127,11 +105,12 @@
   .listItems > div:last-child {
     /* sign out item */
     border-top: 1px solid var(--c-mellow-gray);
-    margin: 1.5rem 0 0;
+    margin: 0;
+    position: static;
+    width: 100%;
   }
 
   .signOutItem {
-    display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
