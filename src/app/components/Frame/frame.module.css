@@ -25,20 +25,9 @@
   margin-top: 1.5rem;
 }
 
-.rowThree {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 2rem;
-}
-
 .leftColumn {
   display: grid;
-  grid-template-rows: 1fr 2fr;
-}
-
-.leftColumnTrends {
-  display: grid;
-  grid-template-rows: 1fr 10fr;
+  grid-template-rows: 1fr;
 }
 
 .rightColumn {
@@ -46,6 +35,18 @@
   grid-template-rows: 1fr 4.5fr 1fr 4.5fr;
   margin-left: 1.2rem;
 }
+
+.rowThree {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 2rem;
+}
+
+.leftColumnTrends {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+
 
 .title {
   align-items: flex-end;
