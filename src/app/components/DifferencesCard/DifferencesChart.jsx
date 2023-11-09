@@ -17,22 +17,19 @@ import DifferencesNav from './DifferencesNav'
 export default function DifferencesCardChart({ data }) {
   const [selectedCategory, setSelectedCategory] = useState(
     data[0]?.demographic_category,
-  ) // Initialize with the first category
+  )
 
   const uniqueCategories = [
-    ...new Set(data.map((item) => item.demographic_category)), // Extract unique demographic categories
+    ...new Set(data.map((item) => item.demographic_category)),
   ]
 
-  //   console.log(uniqueCategories, "uniqueCategories");
   const handleCategoryChange = (e) => {
-    setSelectedCategory(e.target.value) // Handle category change
+    setSelectedCategory(e.target.value)
   }
 
   useEffect(() => {
-    setSelectedCategory(data[0]?.demographic_category) // This effect sets the selectedCategory to the first category when the component mounts
+    setSelectedCategory(data[0]?.demographic_category)
   }, [])
-
-  console.log('selectedCategory', selectedCategory)
 
   const roundedData = data.map((item) => ({
     ...item,
@@ -68,8 +65,6 @@ export default function DifferencesCardChart({ data }) {
     const { demographic_category, ...plotObj } = obj
     return plotObj
   })
-
-  console.log(plotData)
 
   return (
     <>
