@@ -14,17 +14,17 @@ const GridItem = ({ className, children }) => (
 )
 
 export default function Frame() {
-  useEffect(() => {
-    const handleResize = () => {
-      window.location.reload()
-    }
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     window.location.reload()
+  //   }
 
-    window.addEventListener('resize', handleResize)
+  //   window.addEventListener('resize', handleResize)
 
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize)
+  //   }
+  // }, [])
 
   return (
     <div className={styles.gridFrame}>
