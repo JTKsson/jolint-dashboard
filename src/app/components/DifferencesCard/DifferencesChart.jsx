@@ -15,6 +15,7 @@ import styles from './differencesCard.module.css'
 
 export default function DifferencesCardChart({ data }) {
 
+    // console.log(data);
 
    const [selectedCategory, setSelectedCategory] = useState(
         data[0]?.demographic_category,
@@ -38,7 +39,7 @@ export default function DifferencesCardChart({ data }) {
 
   const roundedData = data.map((item) => ({
     ...item,
-    variation: item['variation'].toFixed(2),
+    variation: Math.round(item['variation'] * 100) / 100,
   }))
 
   const results = []
