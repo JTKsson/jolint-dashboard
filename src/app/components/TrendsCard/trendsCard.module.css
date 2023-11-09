@@ -1,38 +1,37 @@
 .main {
-    padding: 1.7rem;
-    padding-top: 2rem;
+  padding: 1.7rem;
+  padding-top: 2rem;
 }
 
 .trendContainer {
-    overflow: scroll;
-    aspect-ratio: 1;
+  overflow: scroll;
+  aspect-ratio: 1;
 }
 
 .trendItem {
-    align-items: center;
-    display: flex;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    padding-bottom: 1.85rem;
-    padding-right: 1.85rem;
-    ;
+  align-items: center;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-bottom: 1.85rem;
+  padding-right: 1.85rem;
 }
 
 .trendItem:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .img {
-    align-items: center;
-    display: flex;
-    padding-right: 0.75rem;
+  align-items: center;
+  display: flex;
+  padding-right: 0.75rem;
 }
 
 @media (max-width: 768px) {
-    .trendContainer {
-        max-height: 17.5rem; /*280px*/
-        overflow: scroll;
-        aspect-ratio: 0;
-    }
+  .trendContainer {
+    max-height: 17.5rem; /*280px*/
+    overflow: scroll;
+    aspect-ratio: 0;
+  }
 }

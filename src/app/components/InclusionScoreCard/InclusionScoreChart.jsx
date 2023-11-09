@@ -20,8 +20,6 @@ export default function ChartComponent({ data }) {
   return (
     <ResponsiveContainer width="100%" height={250}>
       <AreaChart
-        width={500}
-        height={400}
         data={roundedData} // Use the rounded data
         strokeWidth={0}
         margin={{ top: 0, right: 10, left: -25, bottom: -7 }}

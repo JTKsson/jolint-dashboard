@@ -29,8 +29,7 @@ export default function Frame() {
 
         <div className={styles.rowTwo}>
           <div className={styles.leftColumn}>
-            <GridItem className={styles.frame50}>TBD</GridItem>
-            <GridItem className={styles.frame50}>
+            <GridItem className={styles.frame33}>
               <NewHiresCard />
             </GridItem>
           </div>
