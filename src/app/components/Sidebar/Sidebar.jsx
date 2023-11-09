@@ -4,6 +4,9 @@ import Image from 'next/image'
 import styles from './sidebar.module.css'
 import styles2 from './hamburgerMenu.module.css'
 import UserProfile from '../UserProfile/UserProfile'
+import { AiOutlineDashboard } from 'react-icons/ai'
+import { FaGear } from 'react-icons/fa6'
+import { PiSignOutBold } from 'react-icons/pi'
 
 export default function Sidebar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -41,32 +44,17 @@ export default function Sidebar() {
                 <UserProfile />
               </div>
               <div className={styles.buttonItem}>
-                <Image
-                  src="/images/dashboard-icon.svg"
-                  alt="Dashboard icon"
-                  width={20}
-                  height={20}
-                />
+                <AiOutlineDashboard color="white" className={styles.icon} />
                 <p>Dashboard</p>
               </div>
               <div className={styles.buttonItem}>
-                <Image
-                  src="/images/settings-icon.svg"
-                  alt="Settings icon"
-                  width={20}
-                  height={20}
-                />
+                <FaGear color="white" />
                 <p>Settings</p>
               </div>
             </div>
             <div>
-              <div className={styles.buttonItem}>
-                <Image
-                  src="/images/signout-icon.svg"
-                  alt="Signout icon"
-                  width={20}
-                  height={20}
-                />
+              <div className={styles.signOutItem}>
+                <PiSignOutBold color="white" className={styles.icon} />
                 <p>Sign out</p>
               </div>
             </div>

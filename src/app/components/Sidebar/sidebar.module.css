@@ -28,10 +28,11 @@
 }
 
 .buttonItem {
+  align-items: center;
   display: flex;
   gap: 0.5rem;
   justify-content: center;
-  margin-top: 1rem;
+  padding: 0.7rem;
 }
 
 .buttonItem p {
@@ -39,15 +40,42 @@
   font-weight: 700;
 }
 
+.buttonItem:hover svg path {
+  fill: var(--background-color-dark-navy);
+}
+
 .buttonItem:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: var(--background-color-dark-navy);
   cursor: pointer;
-  opacity: 0.5;
+  left: -1rem;
+  padding: 0.7rem 0 0.7rem 2rem;
+  position: relative;
 }
 
 .listItems > div:last-child {
   /* sign out item */
   border-top: 1px solid var(--c-mellow-gray);
-  margin: 18.75rem 1.5rem 0;
+  margin: 17rem 1.5rem 0;
+}
+
+.signOutItem {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.signOutItem p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.signOutItem:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,12 +93,31 @@
     padding-bottom: 1rem;
   }
 
-  .buttonItem,
   .userContainer {
     align-items: center;
     display: flex;
     gap: 0.5rem;
     justify-content: flex-end;
+  }
+
+  .buttonItem {
+    display: flex;
+    justify-content: right;
+    padding: 0.5rem 0;
+  }
+
+  .buttonItem:hover {
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    left: 0;
+    opacity: 0.5;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+
+  .buttonItem:hover svg path {
+    fill: white;
   }
 
   .userContainer {
@@ -81,5 +128,10 @@
     /* sign out item */
     border-top: 1px solid var(--c-mellow-gray);
     margin: 1.5rem 0 0;
+  }
+
+  .signOutItem {
+    display: flex;
+    justify-content: end;
   }
 }
