@@ -56,7 +56,7 @@ export default function NewHiresChart() {
         selectedMetric={selectedMetric}
         handleMetricChange={handleMetricChange}
       />
-      <ResponsiveContainer width="100%" height={150}>
+      <ResponsiveContainer width="100%" height={250}>
         <AreaChart
           data={filteredData}
           margin={{ top: 0, right: 10, left: -38, bottom: -7 }}
