@@ -7,6 +7,7 @@ import NewHiresCard from '../NewHiresCard/NewHiresCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import TrendsCard from '../TrendsCard'
 import styles from './frame.module.css'
+import DifferencesCard from '../DifferencesCard/DifferencesCard'
 
 const GridItem = ({ className, children }) => (
   <div className={className}>{children}</div>
@@ -47,7 +48,9 @@ export default function Frame() {
               <NewHiresCard />
             </GridItem>
           </div>
-          <GridItem className={styles.frame33}>Differences</GridItem>
+          <GridItem className={styles.frame33}>
+            <DifferencesCard />
+          </GridItem>
         </div>
 
       <div className={styles.rowThree}>
