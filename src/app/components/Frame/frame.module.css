@@ -1,6 +1,7 @@
 .gridFrame {
   background-color: #fff;
 }
+
 .gridContainer {
   background: linear-gradient(180deg, #e6eff7 0%, rgba(230, 239, 247, 0) 100%);
   display: flex;
@@ -24,20 +25,9 @@
   margin-top: 1.5rem;
 }
 
-.rowThree {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 2rem;
-}
-
 .leftColumn {
   display: grid;
-  grid-template-rows: 1fr 2fr;
-}
-
-.leftColumnTrends {
-  display: grid;
-  grid-template-rows: 1fr 10fr;
+  grid-template-rows: 1fr;
 }
 
 .rightColumn {
@@ -45,6 +35,18 @@
   grid-template-rows: 1fr 4.5fr 1fr 4.5fr;
   margin-left: 1.2rem;
 }
+
+.rowThree {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 2rem;
+}
+
+.leftColumnTrends {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+
 
 .title {
   align-items: flex-end;
@@ -71,6 +73,17 @@
   box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
 }
 
+@media (max-width: 1335px) {
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+  }
+}
+
 @media (max-width: 768px) {
   .gridContainer,
   .rowOne,
@@ -87,8 +100,15 @@
   .rightColumn {
     margin: 1rem 0;
   }
+}
 
-  .leftColumnTrends {
-    aspect-ratio: 0;
+@media (max-width: 530px) {
+  .gridContainer,
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rightColumn {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

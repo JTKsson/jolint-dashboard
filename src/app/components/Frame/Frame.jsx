@@ -42,31 +42,32 @@ export default function Frame() {
 
         <div className={styles.rowTwo}>
           <div className={styles.leftColumn}>
-            <GridItem className={styles.frame50}>TBD</GridItem>
-            <GridItem className={styles.frame50}>
+            <GridItem className={styles.frame33}>
               <NewHiresCard />
             </GridItem>
           </div>
           <GridItem className={styles.frame33}>Differences</GridItem>
         </div>
 
-      <div className={styles.rowThree}>
-        <div className={styles.leftColumnTrends}>
-          <GridItem className={styles.title}>Trends</GridItem>
-          <GridItem className={styles.leftBox}><TrendsCard /></GridItem>
-        </div>
-        <div className={styles.rightColumn}>
-          <GridItem className={styles.title}>Risks</GridItem>
-          <div className={styles.frame50}>
-            <RisksCard />
+        <div className={styles.rowThree}>
+          <div className={styles.leftColumnTrends}>
+            <GridItem className={styles.title}>Trends</GridItem>
+            <GridItem className={styles.leftBox}>
+              <TrendsCard />
+            </GridItem>
           </div>
-          <GridItem className={styles.title}>Opportunities</GridItem>
-          <div className={styles.frame50}>
-            <OpptsCard />
+          <div className={styles.rightColumn}>
+            <GridItem className={styles.title}>Risks</GridItem>
+            <div className={styles.frame50}>
+              <RisksCard />
+            </div>
+            <GridItem className={styles.title}>Opportunities</GridItem>
+            <div className={styles.frame50}>
+              <OpptsCard />
+            </div>
           </div>
         </div>
       </div>
-      </div>
-     </div> 
+    </div>
   )
 }
