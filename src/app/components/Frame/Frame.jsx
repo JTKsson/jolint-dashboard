@@ -1,5 +1,3 @@
-'use client'
-import { useEffect } from 'react'
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
 import RisksCard from '../RisksCard'
 import OpptsCard from '../OpptsCard'
