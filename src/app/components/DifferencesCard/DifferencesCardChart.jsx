@@ -6,6 +6,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  Bar
 } from 'recharts'
 
 export default function DifferencesCardChart({ data }) {
@@ -35,8 +36,17 @@ export default function DifferencesCardChart({ data }) {
 
       results.push(result)
     })
-    console.log(results)
-  })
-  return
 
+    console.log("RESULTS", results)
+  })
+  return (
+    <BarChart width={730} height={250} data={results}>
+      <XAxis dataKey="demographic_category" />
+      <YAxis />
+      <Tooltip />
+      <Legend />
+      <Bar dataKey="male" fill="#8884d8" />
+      <Bar dataKey="uv" fill="#82ca9d" /> 
+    </BarChart>
+  )
 }
