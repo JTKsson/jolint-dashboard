@@ -1,5 +1,3 @@
-'use client'
-import { useEffect } from 'react'
 import InclusionScoreCard from '../InclusionScoreCard/InclusionScoreCard'
 import RisksCard from '../RisksCard'
 import OpptsCard from '../OpptsCard'
@@ -7,24 +5,13 @@ import NewHiresCard from '../NewHiresCard/NewHiresCard'
 import WeeklyInclusionScoreCard from '../WeeklyScoreCard/WeeklyScoreCard'
 import TrendsCard from '../TrendsCard'
 import styles from './frame.module.css'
+import DifferencesCard from '../DifferencesCard/DifferencesCard'
 
 const GridItem = ({ className, children }) => (
   <div className={className}>{children}</div>
 )
 
 export default function Frame() {
-  useEffect(() => {
-    const handleResize = () => {
-      window.location.reload()
-    }
-
-    window.addEventListener('resize', handleResize)
-
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
-
   return (
     <div className={styles.gridFrame}>
       <div className={styles.gridContainer}>
@@ -46,7 +33,9 @@ export default function Frame() {
               <NewHiresCard />
             </GridItem>
           </div>
-          <GridItem className={styles.frame33}>Differences</GridItem>
+          <GridItem className={styles.frame33}>
+            <DifferencesCard />
+          </GridItem>
         </div>
 
         <div className={styles.rowThree}>
