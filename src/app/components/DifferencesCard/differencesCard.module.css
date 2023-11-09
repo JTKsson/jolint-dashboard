@@ -1,0 +1,16 @@
+.main {
+    padding: 1.7rem;
+  }
+  
+  .nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    gap: 0.3rem;
+  }
+  

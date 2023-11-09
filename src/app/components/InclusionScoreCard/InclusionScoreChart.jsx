@@ -50,7 +50,6 @@ export default function ChartComponent({ data }) {
             />
           </linearGradient>
         </defs>
-        <CartesianGrid strokeDasharray="3 3" />
         <XAxis
           dataKey="Month"
           stroke="var(----text-color-dark)"
