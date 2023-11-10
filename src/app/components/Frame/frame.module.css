@@ -25,7 +25,8 @@
   margin-top: 1.5rem;
 }
 
-.leftColumn {
+.leftColumnNewHires,
+.rightColumnNewHires {
   display: grid;
   grid-template-rows: 1fr;
 }
@@ -73,6 +74,11 @@
   box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.04);
 }
 
+.frame50 {
+  display: flex;
+  align-items: center;
+}
+
 .frame25 {
   z-index: 1;
 }
@@ -84,7 +90,7 @@
   .rowThree,
   .rightColumn {
     display: grid;
-    grid-template-columns: repeat(1, 10fr);
+    grid-template-columns: 1fr;
   }
 }
 
