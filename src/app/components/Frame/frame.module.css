@@ -83,6 +83,11 @@
   z-index: 1;
 }
 
+.frame25,
+.frame33 {
+  overflow: hidden;
+}
+
 @media (max-width: 1335px) {
   .gridContainer,
   .rowOne,
@@ -96,6 +101,11 @@
   .rightColumn {
     margin-left: 0;
   }
+
+  .frame25,
+  .frame33 {
+  overflow: hidden;
+}
 }
 
 @media (max-width: 768px) {
