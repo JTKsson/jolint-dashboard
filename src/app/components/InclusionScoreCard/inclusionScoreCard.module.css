@@ -52,19 +52,13 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0 0 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .navItems {
   align-items: center;
   display: flex;
   gap: 0.8rem;
-}
-
-.button {
-  display: flex;
-  gap: 15px;
-  margin-top: 0.2rem;
 }
 
 @media (max-width: 1037px) {

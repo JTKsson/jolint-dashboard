@@ -1,4 +1,5 @@
 'use client'
+import { useState } from 'react'
 import inclusionData from '../../assets/mockData.json'
 import benchmarkData from '../../assets/mockData.json'
 import styles from './inclusionScoreCard.module.css'
@@ -8,6 +9,7 @@ import ScoreChangeArrows from './ScoreChangeArrows'
 import InclusionScoreNav from './InclusionScoreNav'
 
 export default function InclusionScoreCard() {
+  const [selectedTeam, setSelectedTeam] = useState('')
   const inclusionDataItem1 = inclusionData[8] // Oktober
   const inclusionDataItem2 = inclusionData[7] // September
   const inclusionScore1 = inclusionDataItem1['Inclusion score']
@@ -20,6 +22,10 @@ export default function InclusionScoreCard() {
   const lastMonth = Math.ceil(inclusionScore1 - inclusionScore2)
   const roundedInclusionScore1 = Math.floor(inclusionScore1)
   const teamName = inclusionDataItem1['Team']
+
+  const handleTeamSelect = (team) => {
+    setSelectedTeam(team)
+  }
 
   return (
     <div className={styles.main}>
@@ -35,8 +41,12 @@ export default function InclusionScoreCard() {
       </div>
 
       <div className={styles.rightContainer}>
-        <InclusionScoreNav teamName={teamName} />
-        <ChartComponent data={inclusionData} />
+        <InclusionScoreNav
+          teamName={teamName}
+          jsonData={inclusionData}
+          onTeamSelect={handleTeamSelect}
+        />
+        <ChartComponent data={inclusionData} selectedTeam={selectedTeam} />
       </div>
     </div>
   )
