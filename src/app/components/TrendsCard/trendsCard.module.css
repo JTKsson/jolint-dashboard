@@ -31,7 +31,7 @@
 @media (max-width: 768px) {
   .trendContainer {
     max-height: 17.5rem; /*280px*/
-    overflow: scroll;
+    overflow: auto;
     aspect-ratio: 0;
   }
 }
