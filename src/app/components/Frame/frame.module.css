@@ -92,6 +92,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .rightColumn {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
