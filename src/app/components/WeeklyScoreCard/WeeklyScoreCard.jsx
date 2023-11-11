@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
-
-import inclusionData from '../../assets/mockData.json'
+import inclusionData from '../../assets/inclusionData.json'
 import styles from './weeklyScoreCard.module.css'
 import ScoreChangeArrows from './ScoreChangeArrows'
 import WeeklyInclusionScoreNav from './WeeklyScoreNav'
@@ -53,7 +52,10 @@ export default function WeeklyInclusionScoreCard() {
                 className={styles.icon}
               />
               <div className={styles.tooltip}>
-                <p><b>Team Interactions:</b> Evaluates the frequency and quality of communications between team members.</p>
+                <p>
+                  <b>Team Interactions:</b> Evaluates the frequency and quality
+                  of communications between team members.
+                </p>
               </div>
             </div>
           </div>
@@ -83,7 +85,11 @@ export default function WeeklyInclusionScoreCard() {
                 className={styles.icon}
               />
               <div className={styles.tooltip}>
-                <p><b>Cross-functional Interaction:</b> Measures the engagement between different departments or functions, showing how well teams are working cross-functionally</p>
+                <p>
+                  <b>Cross-functional Interaction:</b> Measures the engagement
+                  between different departments or functions, showing how well
+                  teams are working cross-functionally
+                </p>
               </div>
             </div>
           </div>
@@ -113,7 +119,10 @@ export default function WeeklyInclusionScoreCard() {
                 className={styles.icon}
               />
               <div className={styles.tooltip}>
-                <p><b>Informal Influence:</b> Unofficial impact individuals have within the organisation.</p>
+                <p>
+                  <b>Informal Influence:</b> Unofficial impact individuals have
+                  within the organisation.
+                </p>
               </div>
             </div>
           </div>
@@ -143,7 +152,11 @@ export default function WeeklyInclusionScoreCard() {
                 className={styles.icon}
               />
               <div className={styles.tooltip}>
-                <p><b>Work Habits:</b> Assesses the flexibility and inclusivity of work routines, such as meeting times, length of days, and work on weekends.</p>
+                <p>
+                  <b>Work Habits:</b> Assesses the flexibility and inclusivity
+                  of work routines, such as meeting times, length of days, and
+                  work on weekends.
+                </p>
               </div>
             </div>
           </div>
