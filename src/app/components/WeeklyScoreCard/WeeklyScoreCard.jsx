@@ -22,7 +22,7 @@ export default function WeeklyInclusionScoreCard() {
   }
 
   const getPreviousISOWeek = (currentISOWeek) => {
-    const [year, week] = currentISOWeek.split('-W')
+    const [year] = currentISOWeek.split('-W')
     const currentDate = new Date(year, 0, 1)
     const days = currentDate.getDay() - 1
     const previousWeekStartDate = new Date(
@@ -76,6 +76,11 @@ export default function WeeklyInclusionScoreCard() {
           previousWeekData &&
           Math.floor(selectedData[dataKey] - previousWeekData[dataKey])
         }
+        arrowColor={
+          selectedData &&
+          previousWeekData &&
+          getArrowColor(selectedData[dataKey] - previousWeekData[dataKey])
+        }
       />
       <div className={styles.result}>
         <p>{selectedData && Math.floor(selectedData[dataKey])}</p>
@@ -98,6 +103,10 @@ export default function WeeklyInclusionScoreCard() {
       )}
     </div>
   )
+
+  const getArrowColor = (change) => {
+    return change > 0 ? 'var(--c-green)' : 'var(--c-light-red)'
+  }
 
   const renderTopRowContainer = (label, infoKey, tooltip) => (
     <div className={styles.topRowContainer}>

@@ -1,16 +1,15 @@
 import styles from './weeklyScoreCard.module.css'
 
-export default function ProgressBar({ percentage, color }) {
+export default function ProgressBar({ percentage, arrowColor }) {
   const progressBarStyle = {
     width: `${percentage}%`,
-    height: '17px',
-    transition: 'width 0.5s ease-in-out',
-    backgroundColor: color,
+    backgroundColor: arrowColor,
   }
 
   return (
     <div className={styles.progressBar}>
-      <div style={progressBarStyle}></div>
+      <div className={styles.progress} style={progressBarStyle}></div>
+      <div className={styles.arrow} style={{ borderColor: arrowColor }}></div>
     </div>
   )
 }
