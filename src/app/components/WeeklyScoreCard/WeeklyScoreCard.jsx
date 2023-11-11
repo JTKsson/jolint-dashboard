@@ -1,178 +1,136 @@
 'use client'
-import Image from 'next/image'
-import inclusionData from '../../assets/inclusionData.json'
-import styles from './weeklyScoreCard.module.css'
-import ScoreChangeArrows from './ScoreChangeArrows'
-import WeeklyInclusionScoreNav from './WeeklyScoreNav'
-import ProgressBar from './ProgressBar'
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import inclusionData from '../../assets/inclusionData.json';
+import styles from './weeklyScoreCard.module.css';
+import ScoreChangeArrows from './ScoreChangeArrows';
+import WeeklyInclusionScoreNav from './WeeklyScoreNav';
+import ProgressBar from './ProgressBar';
 
 export default function WeeklyInclusionScoreCard() {
-  const inclusionDataItem1 = inclusionData[8] // Oktober
-  const inclusionDataItem2 = inclusionData[7] // September
-  const inclusionScore1 = inclusionDataItem1['Team Inclusion']
-  const inclusionScore2 = inclusionDataItem2['Team Inclusion']
-  const inclusionScore3 = inclusionDataItem1['Cross-Functional Inclusion']
-  const inclusionScore4 = inclusionDataItem2['Cross-Functional Inclusion']
-  const inclusionScore5 = inclusionDataItem1['Informal Influence']
-  const inclusionScore6 = inclusionDataItem2['Informal Influence']
-  const inclusionScore7 = inclusionDataItem1['Work Habits']
-  const inclusionScore8 = inclusionDataItem2['Work Habits']
+  const [selectedData, setSelectedData] = useState(null);
+  const [previousWeekData, setPreviousWeekData] = useState(null);
+  const [uniqueWeeks, setUniqueWeeks] = useState([]);
 
-  const percentageChange1 =
-    ((inclusionScore1 - inclusionScore2) / inclusionScore2) * 100
-  const percentageChange2 =
-    ((inclusionScore3 - inclusionScore4) / inclusionScore4) * 100
-  const percentageChange3 =
-    ((inclusionScore5 - inclusionScore6) / inclusionScore6) * 100
-  const percentageChange4 =
-    ((inclusionScore7 - inclusionScore8) / inclusionScore8) * 100
-  const thisWeek = inclusionDataItem1['ISO_Week']
-  const roundedInclusionScore1 = Math.floor(inclusionScore1)
-  const roundedInclusionScore2 = Math.floor(inclusionScore3)
-  const roundedInclusionScore3 = Math.floor(inclusionScore5)
-  const roundedInclusionScore4 = Math.floor(inclusionScore7)
-  const isPositive1 = percentageChange1 > 0
-  const isPositive2 = percentageChange2 > 0
-  const isPositive3 = percentageChange3 > 0
-  const isPositive4 = percentageChange4 > 0
+  const getCurrentISOWeek = () => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const startOfYear = new Date(year, 0, 1);
+    const days = Math.floor((today - startOfYear) / (24 * 60 * 60 * 1000));
+    const isoWeek = Math.floor((days + startOfYear.getDay() + 6) / 7);
+    return `${year}-W${String(isoWeek).padStart(2, '0')}`;
+  };
+
+  const getPreviousISOWeek = (currentISOWeek) => {
+    const [year, week] = currentISOWeek.split('-W');
+    const currentDate = new Date(year, 0, 1);
+    const days = currentDate.getDay() - 1;
+    const previousWeekStartDate = new Date(currentDate - days * 24 * 60 * 60 * 1000 - 7 * 24 * 60 * 60 * 1000);
+    const previousWeek = Math.floor((previousWeekStartDate.getDate() - 1) / 7) + 1;
+    return `${year}-W${String(previousWeek).padStart(2, '0')}`;
+  };
+
+  useEffect(() => {
+    const currentWeek = getCurrentISOWeek();
+    const currentData = inclusionData.find((dataItem) => dataItem['ISO_Week'] === currentWeek);
+
+    const previousWeek = getPreviousISOWeek(currentWeek);
+    const previousData = inclusionData.find((dataItem) => dataItem['ISO_Week'] === previousWeek);
+
+    setSelectedData(currentData);
+    setPreviousWeekData(previousData);
+    setUniqueWeeks(Array.from(new Set(inclusionData.map((dataItem) => dataItem['ISO_Week']))));
+  }, []);
+
+  const handleWeekChange = (selectedWeek) => {
+    const selectedDataItem = inclusionData.find((dataItem) => dataItem['ISO_Week'] === selectedWeek);
+
+    const previousWeek = getPreviousISOWeek(selectedWeek);
+    const previousData = inclusionData.find((dataItem) => dataItem['ISO_Week'] === previousWeek);
+
+    setSelectedData(selectedDataItem);
+    setPreviousWeekData(previousData);
+  };
+
+  const renderProgressBar = (label, dataKey, tooltip) => (
+    <div className={styles.progressBarContent}>
+      <ProgressBar
+        percentage={Math.floor(selectedData && selectedData[dataKey])}
+        lastMonth={selectedData && previousWeekData && Math.floor(selectedData[dataKey] - previousWeekData[dataKey])}
+      />
+      <div className={styles.result}>
+        <p>{selectedData && Math.floor(selectedData[dataKey])}</p>
+      </div>
+      {tooltip && (
+        <div className={styles.iconContainer}>
+          <Image
+            src="/images/info-icon.svg"
+            alt="Info icon"
+            width={15}
+            height={15}
+            className={styles.icon}
+          />
+          <div className={styles.tooltip}>
+            <p>
+              <b>{label}:</b> {tooltip}
+            </p>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+
+  const renderTopRowContainer = (label, infoKey, tooltip) => (
+    <div className={styles.topRowContainer}>
+      <div className={styles.infoLeftContainer}>
+        <p>{label}</p>
+        {tooltip && (
+          <div className={styles.iconContainer}>
+            <Image
+              src="/images/info-icon.svg"
+              alt="Info icon"
+              width={15}
+              height={15}
+              className={styles.icon}
+            />
+            <div className={styles.tooltip}>
+              <p>
+                <b>{label}:</b> {tooltip}
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+      {selectedData && previousWeekData && (
+        <ScoreChangeArrows lastMonth={Math.floor(selectedData[infoKey] - previousWeekData[infoKey])} />
+      )}
+    </div>
+  );
 
   return (
     <div className={styles.main}>
-      <WeeklyInclusionScoreNav thisWeek={thisWeek} />
+      <WeeklyInclusionScoreNav uniqueWeeks={uniqueWeeks} onSelectWeek={handleWeekChange} />
+
       <div className={styles.rowOne}>
-        <div className={styles.topRowContainer}>
-          <div className={styles.infoLeftContainer}>
-            <p>Team interactions</p>
-            <div className={styles.iconContainer}>
-              <Image
-                src="/images/info-icon.svg"
-                alt="Info icon"
-                width={15}
-                height={15}
-                className={styles.icon}
-              />
-              <div className={styles.tooltip}>
-                <p>
-                  <b>Team Interactions:</b> Evaluates the frequency and quality
-                  of communications between team members.
-                </p>
-              </div>
-            </div>
-          </div>
-          <ScoreChangeArrows lastMonth={percentageChange1} />
-        </div>
-
-        <div className={styles.progressBarContent}>
-          <ProgressBar
-            percentage={roundedInclusionScore1}
-            isPositive={isPositive1}
-          />
-          <div className={styles.result}>
-            <p>{roundedInclusionScore1}</p>
-          </div>
-        </div>
+        {renderTopRowContainer('Team interactions', 'Team Inclusion', 'Evaluates the frequency and quality of communications between team members.')}
+        {renderProgressBar('Team interactions', 'Team Inclusion')}
       </div>
+
       <div className={styles.rowTwo}>
-        <div className={styles.topRowContainer}>
-          <div className={styles.infoLeftContainer}>
-            <p>Cross-functional interaction</p>
-            <div className={styles.iconContainer}>
-              <Image
-                src="/images/info-icon.svg"
-                alt="Info icon"
-                width={15}
-                height={15}
-                className={styles.icon}
-              />
-              <div className={styles.tooltip}>
-                <p>
-                  <b>Cross-functional Interaction:</b> Measures the engagement
-                  between different departments or functions, showing how well
-                  teams are working cross-functionally
-                </p>
-              </div>
-            </div>
-          </div>
-          <ScoreChangeArrows lastMonth={percentageChange2} />
-        </div>
-
-        <div className={styles.progressBarContent}>
-          <ProgressBar
-            percentage={roundedInclusionScore2}
-            isPositive={isPositive2}
-          />
-          <div className={styles.result}>
-            <p>{roundedInclusionScore2}</p>
-          </div>
-        </div>
+        {renderTopRowContainer('Cross-functional interaction', 'Cross-Functional Inclusion', 'Measures the engagement between different departments or functions, showing how well teams are working cross-functionally.')}
+        {renderProgressBar('Cross-functional interaction', 'Cross-Functional Inclusion')}
       </div>
+
       <div className={styles.rowThree}>
-        <div className={styles.topRowContainer}>
-          <div className={styles.infoLeftContainer}>
-            <p>Informal influence</p>
-            <div className={styles.iconContainer}>
-              <Image
-                src="/images/info-icon.svg"
-                alt="Info icon"
-                width={15}
-                height={15}
-                className={styles.icon}
-              />
-              <div className={styles.tooltip}>
-                <p>
-                  <b>Informal Influence:</b> Unofficial impact individuals have
-                  within the organisation.
-                </p>
-              </div>
-            </div>
-          </div>
-          <ScoreChangeArrows lastMonth={percentageChange3} />
-        </div>
-
-        <div className={styles.progressBarContent}>
-          <ProgressBar
-            percentage={roundedInclusionScore3}
-            isPositive={isPositive3}
-          />
-          <div className={styles.result}>
-            <p>{roundedInclusionScore3}</p>
-          </div>
-        </div>
+        {renderTopRowContainer('Informal influence', 'Informal Influence', 'Unofficial impact individuals have within the organisation.')}
+        {renderProgressBar('Informal influence', 'Informal Influence')}
       </div>
-      <div className={styles.rowFour}>
-        <div className={styles.topRowContainer}>
-          <div className={styles.infoLeftContainer}>
-            <p>Work habits</p>
-            <div className={styles.iconContainer}>
-              <Image
-                src="/images/info-icon.svg"
-                alt="Info icon"
-                width={15}
-                height={15}
-                className={styles.icon}
-              />
-              <div className={styles.tooltip}>
-                <p>
-                  <b>Work Habits:</b> Assesses the flexibility and inclusivity
-                  of work routines, such as meeting times, length of days, and
-                  work on weekends.
-                </p>
-              </div>
-            </div>
-          </div>
-          <ScoreChangeArrows lastMonth={percentageChange4} />
-        </div>
 
-        <div className={styles.progressBarContent}>
-          <ProgressBar
-            percentage={roundedInclusionScore4}
-            isPositive={isPositive4}
-          />
-          <div className={styles.result}>
-            <p>{roundedInclusionScore4}</p>
-          </div>
-        </div>
+      <div className={styles.rowFour}>
+        {renderTopRowContainer('Work habits', 'Work Habits', 'Assesses the flexibility and inclusivity of work routines, such as meeting times, length of days, and work on weekends.')}
+        {renderProgressBar('Work habits', 'Work Habits')}
       </div>
     </div>
-  )
-}
+  );
+};
+
