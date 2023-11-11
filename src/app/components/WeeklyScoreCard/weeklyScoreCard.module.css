@@ -1,9 +1,9 @@
 .main {
-  height: 100%;
-  padding: 1.7rem;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
+  padding: 1.7rem;
 }
 
 /* Title and dropdown button */
@@ -27,8 +27,8 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-bottom: 0.6rem;
   justify-content: space-between;
+  margin-bottom: 0.6rem;
 }
 
 .topArrowContainer {
@@ -43,8 +43,8 @@
   gap: 0.7rem;
 }
 
-.icon {
-  margin-top: 0.09rem;
+.iconContainer {
+  margin-top: 0.3rem;
 }
 
 .result {
@@ -77,16 +77,16 @@
 }
 
 .tooltip {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
   background-color: var(--text-color-light);
-  color: var(--text-color-dark);
   border: 1px solid var(--c-mellow-gray);
+  color: var(--text-color-dark);
+  display: none;
+  left: 0;
   padding: 1rem;
-  width: 12rem;
+  position: absolute;
   text-align: center;
+  top: 100%;
+  width: 12rem;
   z-index: 999;
 }
 
