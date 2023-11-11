@@ -6,7 +6,6 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   Bar,
   Label,
@@ -88,13 +87,6 @@ export default function DifferencesCardChart({ data }) {
             type="number"
             stroke="var(----text-color-dark)"
             tick={{ fontSize: 12 }}
-          />
-          <Legend
-            layout="horizontal"
-            verticalAlign="top"
-            align="right"
-            iconType="circle"
-            iconSize={10}
           />
           <Tooltip />
           {selectedCategory === 'Gender' && (
