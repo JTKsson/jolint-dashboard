@@ -28,14 +28,16 @@ export default function Frame() {
         </div>
 
         <div className={styles.rowTwo}>
-          <div className={styles.leftColumn}>
+          <div className={styles.leftColumnNewHires}>
             <GridItem className={styles.frame33}>
               <NewHiresCard />
             </GridItem>
           </div>
-          <GridItem className={styles.frame33}>
-            <DifferencesCard />
-          </GridItem>
+          <div className={styles.rightColumnNewHires}>
+            <GridItem className={styles.frame33}>
+              <DifferencesCard />
+            </GridItem>
+          </div>
         </div>
 
         <div className={styles.rowThree}>
