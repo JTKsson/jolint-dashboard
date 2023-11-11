@@ -1,3 +1,4 @@
+import CustomLegend from '../CustomLegend/CustomLegend'
 import styles from './differencesCard.module.css'
 
 export default function DifferencesNav(props) {
@@ -8,6 +9,7 @@ export default function DifferencesNav(props) {
       <div className={styles.title}>
         <h1>Differences</h1>
       </div>
+      <CustomLegend selectedCategory={selectedCategory} />
       <div className={styles.dropdown}>
         <label htmlFor="categorySelect" />
         <select
