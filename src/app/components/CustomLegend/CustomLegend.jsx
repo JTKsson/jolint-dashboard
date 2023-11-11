@@ -1,12 +1,11 @@
 import React from 'react'
 import iconColors from '@/app/assets/iconColors'
+import styles from './customLegend.module.css'
 
 console.log(iconColors)
 
 export default function CustomLegend(props) {
   const { selectedCategory } = props
-
-  console.log(selectedCategory)
 
   const getLegendData = () => {
     switch (selectedCategory) {
@@ -29,25 +28,20 @@ export default function CustomLegend(props) {
 
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
-        {legendData.map((entry, index) => (
+      {legendData.map((entry, index) => (
+        <div key={`legend-${index}`} className={styles.legendItem}>
           <div
-            key={`legend-${index}`}
-            style={{ marginRight: 20, display: 'flex', alignItems: 'center' }}
-          >
-            <div
-              style={{
-                width: 10,
-                height: 10,
-                backgroundColor: iconColors[index],
-                marginRight: 5,
-                borderRadius: '50%',
-              }}
-            />
-            <span style={{ color: 'black' }}>{entry}</span>
-          </div>
-        ))}
-      </div>
+            style={{
+              width: 10,
+              height: 10,
+              backgroundColor: iconColors[index],
+              marginRight: 5,
+              borderRadius: '50%',
+            }}
+          />
+          <span style={{ color: 'black' }}>{entry}</span>
+        </div>
+      ))}
     </>
   )
 }
