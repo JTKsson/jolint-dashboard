@@ -87,6 +87,7 @@ export default function DifferencesCardChart({ data }) {
             type="number"
             stroke="var(----text-color-dark)"
             tick={{ fontSize: 12 }}
+            tickMargin={-2}
           />
           <Tooltip />
           {selectedCategory === 'Gender' && (
