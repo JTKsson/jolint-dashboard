@@ -1,17 +1,17 @@
-import { useState } from 'react';
-import styles from './weeklyScoreCard.module.css';
-import Image from 'next/image';
+import { useState } from 'react'
+import styles from './weeklyScoreCard.module.css'
+import Image from 'next/image'
 
 export default function WeeklyScoreNav({ uniqueWeeks, onSelectWeek }) {
-  const filteredWeeks = uniqueWeeks.slice(8);
+  const filteredWeeks = uniqueWeeks.slice(8)
 
-  const [selectedWeek, setSelectedWeek] = useState(filteredWeeks[0]);
+  const [selectedWeek, setSelectedWeek] = useState(filteredWeeks[0])
 
   const handleChange = (event) => {
-    const selectedValue = event.target.value;
-    setSelectedWeek(selectedValue);
-    onSelectWeek(selectedValue);
-  };
+    const selectedValue = event.target.value
+    setSelectedWeek(selectedValue)
+    onSelectWeek(selectedValue)
+  }
 
   return (
     <div className={styles.nav}>
@@ -28,5 +28,5 @@ export default function WeeklyScoreNav({ uniqueWeeks, onSelectWeek }) {
         </select>
       </div>
     </div>
-  );
+  )
 }
