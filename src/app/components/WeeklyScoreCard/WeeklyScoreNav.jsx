@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import styles from './weeklyScoreCard.module.css'
-import Image from 'next/image'
 
 export default function WeeklyScoreNav({ uniqueWeeks, onSelectWeek }) {
   const filteredWeeks = uniqueWeeks.slice(8)
