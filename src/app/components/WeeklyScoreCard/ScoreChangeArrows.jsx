@@ -2,7 +2,6 @@ import Image from 'next/image'
 import styles from './weeklyScoreCard.module.css'
 
 export default function ScoreChangeArrows({ lastMonth }) {
-  // Round down the values and convert them to strings
   const roundedLastMonth = Math.floor(lastMonth).toString()
 
   return (

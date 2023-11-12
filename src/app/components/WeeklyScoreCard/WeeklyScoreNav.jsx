@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import styles from './weeklyScoreCard.module.css'
-import Image from 'next/image'
 
-export default function InclusionScoreCard({ thisWeek }) {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+export default function WeeklyScoreNav({ uniqueWeeks, onSelectWeek }) {
+  const filteredWeeks = uniqueWeeks.slice(8)
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen)
+  const [selectedWeek, setSelectedWeek] = useState(filteredWeeks[0])
+
+  const handleChange = (event) => {
+    const selectedValue = event.target.value
+    setSelectedWeek(selectedValue)
+    onSelectWeek(selectedValue)
   }
 
   return (
@@ -14,21 +17,14 @@ export default function InclusionScoreCard({ thisWeek }) {
       <div className={styles.title}>
         <h2>Weekly inclusion score</h2>
       </div>
-      <div className={styles.dropdown}>
-        <button onClick={toggleDropdown} className={styles.button}>
-          <div>This week</div>
-          <div>
-            <Image
-              src="/images/arrow-down-s-line.svg"
-              alt="Arrow down icon"
-              width={8}
-              height={8}
-            />
-          </div>
-        </button>
-        {isDropdownOpen && (
-          <div className={styles.dropdownContent}>{/* Add content here */}</div>
-        )}
+      <div>
+        <select value={selectedWeek} onChange={handleChange}>
+          {filteredWeeks.map((week) => (
+            <option key={week} value={week}>
+              Week {week.replace(/202[23]-W/, '')}
+            </option>
+          ))}
+        </select>
       </div>
     </div>
   )
