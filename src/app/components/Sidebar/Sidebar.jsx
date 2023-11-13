@@ -7,6 +7,7 @@ import UserProfile from '../UserProfile/UserProfile'
 import { AiOutlineDashboard } from 'react-icons/ai'
 import { FaGear } from 'react-icons/fa6'
 import { PiSignOutBold } from 'react-icons/pi'
+import Link from 'next/link'
 
 export default function Sidebar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -20,12 +21,14 @@ export default function Sidebar() {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.logo}>
-            <Image
-              src="/images/JOLINT-logo.svg"
-              alt="Jolint logo"
-              width={115}
-              height={115}
-            />
+              <Link href="https://jolint-webbapp.vercel.app/" target="_blank" rel="noreferrer">
+                  <Image
+                    src="/images/JOLINT-logo.svg"
+                    alt="Jolint logo"
+                    width={115}
+                    height={115}
+                  />
+              </Link>
           </div>
           <div className={styles2.hamburgerButton} onClick={toggleMenu}>
             <div className={styles2.hamburgerLine} />
