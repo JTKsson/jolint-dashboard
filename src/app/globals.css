@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Poppins:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -30,11 +30,11 @@
   --text-color-light: white;
 
   /* Font styles */
-  --font-heading: 'Space Grotesk', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
   --font-body-copy: 'Kumbh Sans', sans-serif;
 
   /* Font sizes */
-  --fs-heading: 1.3rem; /*21px*/
+  --fs-heading: 1.2rem; /*21px*/
   --fs-subheading: 1rem; /*16px*/
   --fs-paragraph-L: 3rem; /*48px*/
   --fs-paragraph-M: 0.82rem; /*13px*/
