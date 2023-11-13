@@ -21,11 +21,4 @@
 .dropdown {
   display: flex;
   gap: 0.3rem;
-  margin: auto;
-}
-
-/* @media (max-width: 630px) {
-  .nav {
-    display: grid;
-  }
 }
