@@ -2,7 +2,6 @@ import Image from 'next/image'
 import styles from './weeklyScoreCard.module.css'
 
 export default function ScoreChangeArrows({ lastMonth }) {
-  // Round down the values and convert them to strings
   const roundedLastMonth = Math.floor(lastMonth).toString()
 
   return (
@@ -15,10 +14,9 @@ export default function ScoreChangeArrows({ lastMonth }) {
                 ? '/images/positive-arrow-green-icon.svg'
                 : '/images/negative-arrow-red-icon.svg'
             }
-            alt={lastMonth > 0 ? 'Gray arrow icon' : 'Gray arrow icon'}
+            alt={lastMonth > 0 ? 'Green arrow up icon' : 'Red arrow down icon'}
             width={15}
             height={15}
-            style={{ filter: 'grayscale(1)' }} // Apply grayscale filter to make the arrows gray
             className={styles.icon}
           />
           <p>

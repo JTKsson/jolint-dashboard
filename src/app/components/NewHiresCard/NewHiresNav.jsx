@@ -1,14 +1,7 @@
 import styles from './newHiresCard.module.css'
 
 export default function NewHiresNav(props) {
-  const {
-    uniqueCategories,
-    selectedCategory,
-    handleCategoryChange,
-    uniqueMetrics,
-    selectedMetric,
-    handleMetricChange,
-  } = props
+  const { uniqueCategories, selectedCategory, handleCategoryChange } = props
 
   return (
     <nav className={styles.nav}>
@@ -25,18 +18,6 @@ export default function NewHiresNav(props) {
           {uniqueCategories.map((category, index) => (
             <option key={index} value={category}>
               {category}
-            </option>
-          ))}
-        </select>
-        <label htmlFor="metricSelect" />
-        <select
-          id="metricSelect"
-          value={selectedMetric}
-          onChange={handleMetricChange}
-        >
-          {uniqueMetrics.map((metric, index) => (
-            <option key={index} value={metric}>
-              {metric}
             </option>
           ))}
         </select>

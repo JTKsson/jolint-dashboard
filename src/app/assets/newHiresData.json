@@ -2,337 +2,1009 @@
   {
     "demographic_category": "Gender",
     "demographic_value": "Male",
-    "metric": "Team Inclusion",
-    "variation": 53.12
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Female",
-    "metric": "Team Inclusion",
-    "variation": 42.01
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Non-Binary",
-    "metric": "Team Inclusion",
-    "variation": 45.91
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "18-25",
-    "metric": "Team Inclusion",
-    "variation": 38.19
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "26-35",
-    "metric": "Team Inclusion",
-    "variation": 56.59
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "36-45",
-    "metric": "Team Inclusion",
-    "variation": 52.98
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "46-55",
-    "metric": "Team Inclusion",
-    "variation": 65.39
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "56+",
-    "metric": "Team Inclusion",
-    "variation": 59.65
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "Immigrant",
-    "metric": "Team Inclusion",
-    "variation": 59.75
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "native",
-    "metric": "Team Inclusion",
-    "variation": 42.16
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Majority",
-    "metric": "Team Inclusion",
-    "variation": 61.66
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Minority",
-    "metric": "Team Inclusion",
-    "variation": 38.86
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "hetero",
-    "metric": "Team Inclusion",
-    "variation": 66.89
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "LBGTQ+",
-    "metric": "Team Inclusion",
-    "variation": 40.05
+    "time": "1 months",
+    "inclusion_value": 6.2431434614
   },
   {
     "demographic_category": "Gender",
     "demographic_value": "Male",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 32.62
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Female",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 51.79
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Non-Binary",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 55.47
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "18-25",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 52.54
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "26-35",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 50.05
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "36-45",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 44.13
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "46-55",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 36.75
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "56+",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 54.35
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "Immigrant",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 36.55
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "native",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 47.37
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Majority",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 32.96
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Minority",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 53.43
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "hetero",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 37.25
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "LBGTQ+",
-    "metric": "Cross-Functional Inclusion",
-    "variation": 52.97
+    "time": "2 months",
+    "inclusion_value": 9.9065200078
   },
   {
     "demographic_category": "Gender",
     "demographic_value": "Male",
-    "metric": "Informal Influence",
-    "variation": 56.51
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Female",
-    "metric": "Informal Influence",
-    "variation": 57.55
-  },
-  {
-    "demographic_category": "Gender",
-    "demographic_value": "Non-Binary",
-    "metric": "Informal Influence",
-    "variation": 73.53
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "18-25",
-    "metric": "Informal Influence",
-    "variation": 36.67
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "26-35",
-    "metric": "Informal Influence",
-    "variation": 66.8
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "36-45",
-    "metric": "Informal Influence",
-    "variation": 61.96
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "46-55",
-    "metric": "Informal Influence",
-    "variation": 70.77
-  },
-  {
-    "demographic_category": "Age Group",
-    "demographic_value": "56+",
-    "metric": "Informal Influence",
-    "variation": 81.5
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "Immigrant",
-    "metric": "Informal Influence",
-    "variation": 45.35
-  },
-  {
-    "demographic_category": "Background",
-    "demographic_value": "native",
-    "metric": "Informal Influence",
-    "variation": 67.23
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Majority",
-    "metric": "Informal Influence",
-    "variation": 43.74
-  },
-  {
-    "demographic_category": "Ethnicity",
-    "demographic_value": "Minority",
-    "metric": "Informal Influence",
-    "variation": 70.47
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "hetero",
-    "metric": "Informal Influence",
-    "variation": 49.32
-  },
-  {
-    "demographic_category": "Sexual Orientation",
-    "demographic_value": "LBGTQ+",
-    "metric": "Informal Influence",
-    "variation": 62.46
+    "time": "3 months",
+    "inclusion_value": 16.1434244968
   },
   {
     "demographic_category": "Gender",
     "demographic_value": "Male",
-    "metric": "Work Habits",
-    "variation": 52.39
+    "time": "4 months",
+    "inclusion_value": 21.5715283965
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "5 months",
+    "inclusion_value": 27.612780715
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "6 months",
+    "inclusion_value": 34.3552298391
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "7 months",
+    "inclusion_value": 35.2586803455
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "8 months",
+    "inclusion_value": 40.9886395498
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "9 months",
+    "inclusion_value": 42.2411356069
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "10 months",
+    "inclusion_value": 45.3992843777
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "11 months",
+    "inclusion_value": 51.6637275284
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Male",
+    "time": "12 months",
+    "inclusion_value": 57.1536327617
   },
   {
     "demographic_category": "Gender",
     "demographic_value": "Female",
-    "metric": "Work Habits",
-    "variation": 58.08
+    "time": "1 months",
+    "inclusion_value": 4.851209982
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "2 months",
+    "inclusion_value": 9.4251314789
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "3 months",
+    "inclusion_value": 11.0650073856
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "4 months",
+    "inclusion_value": 13.9929471301
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "5 months",
+    "inclusion_value": 19.3398591878
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "6 months",
+    "inclusion_value": 19.4691801991
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "7 months",
+    "inclusion_value": 21.0204050891
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "8 months",
+    "inclusion_value": 27.3175449753
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "9 months",
+    "inclusion_value": 27.4139137835
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "10 months",
+    "inclusion_value": 28.0766532128
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "11 months",
+    "inclusion_value": 30.3149239139
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Female",
+    "time": "12 months",
+    "inclusion_value": 35.7296947252
   },
   {
     "demographic_category": "Gender",
     "demographic_value": "Non-Binary",
-    "metric": "Work Habits",
-    "variation": 72.88
+    "time": "1 months",
+    "inclusion_value": 3.6862993812
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "2 months",
+    "inclusion_value": 7.7285804898
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "3 months",
+    "inclusion_value": 10.8809176271
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "4 months",
+    "inclusion_value": 14.5248135131
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "5 months",
+    "inclusion_value": 21.395415326
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "6 months",
+    "inclusion_value": 24.1419580546
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "7 months",
+    "inclusion_value": 24.4178304713
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "8 months",
+    "inclusion_value": 25.674159679
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "9 months",
+    "inclusion_value": 31.1559299347
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "10 months",
+    "inclusion_value": 36.6113634359
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "11 months",
+    "inclusion_value": 37.2677713977
+  },
+  {
+    "demographic_category": "Gender",
+    "demographic_value": "Non-Binary",
+    "time": "12 months",
+    "inclusion_value": 40.1589347221
   },
   {
     "demographic_category": "Age Group",
     "demographic_value": "18-25",
-    "metric": "Work Habits",
-    "variation": 62.13
+    "time": "1 months",
+    "inclusion_value": 1.6922572346
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "2 months",
+    "inclusion_value": 6.8368193543
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "3 months",
+    "inclusion_value": 7.0420739866
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "4 months",
+    "inclusion_value": 9.7461770514
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "5 months",
+    "inclusion_value": 16.065538955
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "6 months",
+    "inclusion_value": 20.9939975918
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "7 months",
+    "inclusion_value": 27.5754928745
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "8 months",
+    "inclusion_value": 28.9161428956
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "9 months",
+    "inclusion_value": 31.9682753328
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "10 months",
+    "inclusion_value": 35.7408212288
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "11 months",
+    "inclusion_value": 36.3191327629
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "18-25",
+    "time": "12 months",
+    "inclusion_value": 43.2283424662
   },
   {
     "demographic_category": "Age Group",
     "demographic_value": "26-35",
-    "metric": "Work Habits",
-    "variation": 36.72
+    "time": "1 months",
+    "inclusion_value": 7.2347551914
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "2 months",
+    "inclusion_value": 7.8341983954
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "3 months",
+    "inclusion_value": 7.9165229357
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "4 months",
+    "inclusion_value": 10.6346678277
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "5 months",
+    "inclusion_value": 10.8178038082
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "6 months",
+    "inclusion_value": 13.556659068
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "7 months",
+    "inclusion_value": 17.1271617189
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "8 months",
+    "inclusion_value": 18.6141006206
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "9 months",
+    "inclusion_value": 19.6529032644
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "10 months",
+    "inclusion_value": 20.1029170744
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "11 months",
+    "inclusion_value": 24.4047928745
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "26-35",
+    "time": "12 months",
+    "inclusion_value": 25.4005463604
   },
   {
     "demographic_category": "Age Group",
     "demographic_value": "36-45",
-    "metric": "Work Habits",
-    "variation": 62.43
+    "time": "1 months",
+    "inclusion_value": 2.5667268118
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "2 months",
+    "inclusion_value": 3.3369271975
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "3 months",
+    "inclusion_value": 5.6688355852
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "4 months",
+    "inclusion_value": 10.0816536208
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "5 months",
+    "inclusion_value": 16.2688559645
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "6 months",
+    "inclusion_value": 21.1083571757
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "7 months",
+    "inclusion_value": 21.5207093699
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "8 months",
+    "inclusion_value": 25.162182119
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "9 months",
+    "inclusion_value": 31.377092046
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "10 months",
+    "inclusion_value": 33.4004477407
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "11 months",
+    "inclusion_value": 37.0646939486
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "36-45",
+    "time": "12 months",
+    "inclusion_value": 38.8979243613
   },
   {
     "demographic_category": "Age Group",
     "demographic_value": "46-55",
-    "metric": "Work Habits",
-    "variation": 55.63
+    "time": "1 months",
+    "inclusion_value": 4.4803173454
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "2 months",
+    "inclusion_value": 4.719689955
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "3 months",
+    "inclusion_value": 10.0009429481
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "4 months",
+    "inclusion_value": 12.4533275138
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "5 months",
+    "inclusion_value": 17.3271523892
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "6 months",
+    "inclusion_value": 22.4799537807
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "7 months",
+    "inclusion_value": 24.8179379733
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "8 months",
+    "inclusion_value": 26.4331085137
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "9 months",
+    "inclusion_value": 29.7129509403
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "10 months",
+    "inclusion_value": 34.6163602107
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "11 months",
+    "inclusion_value": 34.9864454685
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "46-55",
+    "time": "12 months",
+    "inclusion_value": 39.3042245122
   },
   {
     "demographic_category": "Age Group",
     "demographic_value": "56+",
-    "metric": "Work Habits",
-    "variation": 44.6
+    "time": "1 months",
+    "inclusion_value": 3.4812945347
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "2 months",
+    "inclusion_value": 10.2934973401
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "3 months",
+    "inclusion_value": 17.2671259961
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "4 months",
+    "inclusion_value": 18.6735744135
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "5 months",
+    "inclusion_value": 24.9422950317
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "6 months",
+    "inclusion_value": 27.6808553064
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "7 months",
+    "inclusion_value": 32.2200539091
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "8 months",
+    "inclusion_value": 34.5734556162
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "9 months",
+    "inclusion_value": 37.0087289464
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "10 months",
+    "inclusion_value": 40.5460364063
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "11 months",
+    "inclusion_value": 44.9001667713
+  },
+  {
+    "demographic_category": "Age Group",
+    "demographic_value": "56+",
+    "time": "12 months",
+    "inclusion_value": 45.7497879597
   },
   {
     "demographic_category": "Background",
     "demographic_value": "Immigrant",
-    "metric": "Work Habits",
-    "variation": 47.12
+    "time": "1 months",
+    "inclusion_value": 7.3502997802
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "2 months",
+    "inclusion_value": 13.1486770992
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "3 months",
+    "inclusion_value": 19.439886098
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "4 months",
+    "inclusion_value": 19.5707679083
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "5 months",
+    "inclusion_value": 26.2175991782
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "6 months",
+    "inclusion_value": 27.0886112337
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "7 months",
+    "inclusion_value": 33.8680016643
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "8 months",
+    "inclusion_value": 40.6929024617
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "9 months",
+    "inclusion_value": 47.6483003142
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "10 months",
+    "inclusion_value": 50.6278196909
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "11 months",
+    "inclusion_value": 54.9471083336
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "Immigrant",
+    "time": "12 months",
+    "inclusion_value": 60.0636766325
   },
   {
     "demographic_category": "Background",
     "demographic_value": "native",
-    "metric": "Work Habits",
-    "variation": 60.9
+    "time": "1 months",
+    "inclusion_value": 5.5097213223
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "2 months",
+    "inclusion_value": 6.1343317253
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "3 months",
+    "inclusion_value": 6.5402377375
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "4 months",
+    "inclusion_value": 12.3640716265
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "5 months",
+    "inclusion_value": 17.188025851
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "6 months",
+    "inclusion_value": 17.6913474148
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "7 months",
+    "inclusion_value": 17.718197585
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "8 months",
+    "inclusion_value": 18.1211851608
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "9 months",
+    "inclusion_value": 20.0959892131
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "10 months",
+    "inclusion_value": 23.3441440919
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "11 months",
+    "inclusion_value": 26.2094947196
+  },
+  {
+    "demographic_category": "Background",
+    "demographic_value": "native",
+    "time": "12 months",
+    "inclusion_value": 31.6159290071
   },
   {
     "demographic_category": "Ethnicity",
     "demographic_value": "Majority",
-    "metric": "Work Habits",
-    "variation": 34.29
+    "time": "1 months",
+    "inclusion_value": 4.3901462689
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "2 months",
+    "inclusion_value": 7.8449163003
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "3 months",
+    "inclusion_value": 7.9881920196
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "4 months",
+    "inclusion_value": 9.088418517
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "5 months",
+    "inclusion_value": 11.4769587947
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "6 months",
+    "inclusion_value": 16.7028180172
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "7 months",
+    "inclusion_value": 19.0738200812
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "8 months",
+    "inclusion_value": 23.8285464919
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "9 months",
+    "inclusion_value": 29.8666695542
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "10 months",
+    "inclusion_value": 30.6246638353
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "11 months",
+    "inclusion_value": 37.4623869939
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Majority",
+    "time": "12 months",
+    "inclusion_value": 43.0000282882
   },
   {
     "demographic_category": "Ethnicity",
     "demographic_value": "Minority",
-    "metric": "Work Habits",
-    "variation": 76.57
+    "time": "1 months",
+    "inclusion_value": 6.4848792826
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "2 months",
+    "inclusion_value": 8.293670722
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "3 months",
+    "inclusion_value": 9.8382962324
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "4 months",
+    "inclusion_value": 11.8770780591
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "5 months",
+    "inclusion_value": 13.3267954138
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "6 months",
+    "inclusion_value": 17.8791792016
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "7 months",
+    "inclusion_value": 18.3535663103
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "8 months",
+    "inclusion_value": 23.0553867561
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "9 months",
+    "inclusion_value": 23.7499498168
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "10 months",
+    "inclusion_value": 27.4923117235
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "11 months",
+    "inclusion_value": 29.8566831589
+  },
+  {
+    "demographic_category": "Ethnicity",
+    "demographic_value": "Minority",
+    "time": "12 months",
+    "inclusion_value": 35.3968249429
   },
   {
     "demographic_category": "Sexual Orientation",
     "demographic_value": "hetero",
-    "metric": "Work Habits",
-    "variation": 57.83
+    "time": "1 months",
+    "inclusion_value": 6.425215729
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "2 months",
+    "inclusion_value": 6.5301047637
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "3 months",
+    "inclusion_value": 7.7028388509
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "4 months",
+    "inclusion_value": 10.7755871028
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "5 months",
+    "inclusion_value": 15.3408853192
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "6 months",
+    "inclusion_value": 19.2582988686
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "7 months",
+    "inclusion_value": 25.9145986788
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "8 months",
+    "inclusion_value": 26.7935005501
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "9 months",
+    "inclusion_value": 32.724181828
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "10 months",
+    "inclusion_value": 39.5172461086
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "11 months",
+    "inclusion_value": 46.4939450021
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "hetero",
+    "time": "12 months",
+    "inclusion_value": 53.1033034406
   },
   {
     "demographic_category": "Sexual Orientation",
     "demographic_value": "LBGTQ+",
-    "metric": "Work Habits",
-    "variation": 49.07
+    "time": "1 months",
+    "inclusion_value": 1.7097404071
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "2 months",
+    "inclusion_value": 5.3695772789
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "3 months",
+    "inclusion_value": 11.2167594576
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "4 months",
+    "inclusion_value": 17.2652748539
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "5 months",
+    "inclusion_value": 19.4915250113
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "6 months",
+    "inclusion_value": 23.3757419345
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "7 months",
+    "inclusion_value": 23.9858949056
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "8 months",
+    "inclusion_value": 26.643391821
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "9 months",
+    "inclusion_value": 32.6025358758
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "10 months",
+    "inclusion_value": 35.3688759816
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "11 months",
+    "inclusion_value": 37.0089165062
+  },
+  {
+    "demographic_category": "Sexual Orientation",
+    "demographic_value": "LBGTQ+",
+    "time": "12 months",
+    "inclusion_value": 41.8733852732
   }
 ]
