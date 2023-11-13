@@ -4,8 +4,8 @@
 }
 
 .trendContainer {
-  overflow: auto;
-  aspect-ratio: 1;
+  /* overflow: none;
+  aspect-ratio: 1; */
 }
 
 .trendItem {
@@ -31,7 +31,7 @@
 @media (max-width: 768px) {
   .trendContainer {
     max-height: 17.5rem; /*280px*/
-    overflow: auto;
-    aspect-ratio: 0;
+    /* overflow: none;
+    aspect-ratio: 0; */
   }
 }
