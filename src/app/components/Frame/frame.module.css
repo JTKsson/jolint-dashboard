@@ -101,12 +101,13 @@
     margin-left: 0;
   }
 
+  .frame25
   .frame33 {
-  overflow: hidden;
+    overflow: hidden;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .gridContainer,
   .rowOne,
   .rowTwo,
