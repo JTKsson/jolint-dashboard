@@ -4,7 +4,7 @@
 }
 
 .trendContainer {
-  overflow: scroll;
+  overflow: auto;
   aspect-ratio: 1;
 }
 
