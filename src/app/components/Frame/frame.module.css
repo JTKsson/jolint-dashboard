@@ -22,7 +22,7 @@
 
 .rowTwo {
   display: grid;
-  grid-template-columns: 5fr 4fr;
+  grid-template-columns: 6fr 5fr;
   margin-top: 1.5rem;
 }
 

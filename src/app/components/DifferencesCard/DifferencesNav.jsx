@@ -7,7 +7,7 @@ export default function DifferencesNav(props) {
   return (
     <nav className={styles.nav}>
       <div className={styles.title}>
-        <h1>Differences</h1>
+        <h2>Differences</h2>
       </div>
       <div className={styles.navItems}>
         <div className={styles.legend}>
