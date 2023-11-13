@@ -2,8 +2,6 @@ import React from 'react'
 import iconColors from '@/app/assets/iconColors'
 import styles from './customLegend.module.css'
 
-console.log(iconColors)
-
 export default function CustomLegend(props) {
   const { selectedCategory } = props
 
