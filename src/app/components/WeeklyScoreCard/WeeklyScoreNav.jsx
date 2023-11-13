@@ -4,7 +4,7 @@ import styles from './weeklyScoreCard.module.css'
 export default function WeeklyScoreNav({ uniqueWeeks, onSelectWeek }) {
   const filteredWeeks = uniqueWeeks.slice(8)
 
-  const [selectedWeek, setSelectedWeek] = useState(filteredWeeks[0])
+  const [selectedWeek, setSelectedWeek] = useState('2023-W46')
 
   const handleChange = (event) => {
     const selectedValue = event.target.value
