@@ -21,14 +21,18 @@ export default function Sidebar() {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.logo}>
-              <Link href="https://jolint-webbapp.vercel.app/" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/images/JOLINT-logo.svg"
-                    alt="Jolint logo"
-                    width={115}
-                    height={115}
-                  />
-              </Link>
+            <Link
+              href="https://jolint-webbapp.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/images/JOLINT-logo.svg"
+                alt="Jolint logo"
+                width={115}
+                height={115}
+              />
+            </Link>
           </div>
           <div className={styles2.hamburgerButton} onClick={toggleMenu}>
             <div className={styles2.hamburgerLine} />
