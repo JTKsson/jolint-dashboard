@@ -35,6 +35,7 @@ export default function CustomLegend(props) {
               backgroundColor: iconColors[index],
               marginRight: 5,
               borderRadius: '50%',
+              aspectRatio: 1,
             }}
           />
           <span style={{ color: 'black' }}>{entry}</span>
