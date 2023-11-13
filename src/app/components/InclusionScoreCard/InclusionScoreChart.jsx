@@ -83,7 +83,7 @@ export default function ChartComponent({ data, selectedTeam }) {
   const companyAverageData = getCompanyAverageData(data, 'Company average')
 
   return (
-    <ResponsiveContainer width="100%" height={250}>
+    <ResponsiveContainer width="100%" height={270}>
       <AreaChart
         data={mappedData}
         strokeWidth={0}
