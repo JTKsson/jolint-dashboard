@@ -64,8 +64,6 @@ export default function NewHiresChart() {
     return plotObj
   })
 
-  console.log(plotData)
-
   return (
     <>
       <NewHiresNav
@@ -159,13 +157,6 @@ export default function NewHiresChart() {
             dataKey="time"
           />
           <YAxis stroke="var(----text-color-dark)" tick={{ fontSize: 12 }} />
-          <Legend
-            layout="horizontal"
-            verticalAlign="top"
-            align="right"
-            iconType="circle"
-            iconSize={10}
-          />
           <Tooltip />
           {selectedCategory === 'Gender' && (
             <>

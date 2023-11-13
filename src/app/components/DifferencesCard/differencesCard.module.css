@@ -7,21 +7,19 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.8rem;
+  flex-wrap: wrap;
 }
 
-.navItems {
+.navItems,
+.legend {
   align-items: center;
   display: flex;
   gap: 0.8rem;
+  justify-content: space-between;
 }
 
 .dropdown {
   display: flex;
   gap: 0.3rem;
-}
-
-@media (max-width: 630px) {
-  .nav {
-    display: grid;
-  }
+  margin: auto;
 }
