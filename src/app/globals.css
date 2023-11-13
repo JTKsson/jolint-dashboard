@@ -72,7 +72,6 @@ h3 {
   font-family: var(--font-heading);
 }
 
-button,
 select {
   /* Styling for ALL dropdown buttons and select elements */
   font-family: var(--font-body-copy);
@@ -81,29 +80,8 @@ select {
   border-style: none;
   border: 1.5px solid var(--c-mellow-gray);
   border-radius: 5px;
-}
-
-button {
-}
-
-button {
-  padding: 0.2rem 0.4rem;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-select {
   padding: 0.2rem 0;
-}
-
-select:focus {
-  outline: none;
-}
-
-select {
-  padding: 0.2rem 0;
+  margin-top: 0.2rem;
 }
 
 select:focus {

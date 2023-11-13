@@ -1,13 +1,27 @@
 import { useState } from 'react'
 import styles from './inclusionScoreCard.module.css'
-import Image from 'next/image'
 import { BsFillCircleFill } from 'react-icons/bs'
 
-export default function InclusionScoreNav({ teamName }) {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+export default function InclusionScoreNav({
+  teamName,
+  jsonData,
+  onTeamSelect,
+}) {
+  const uniqueTeams = [
+    ...new Set(
+      jsonData
+        .filter((item) => item.Team !== 'Company average')
+        .map((item) => item.Team),
+    ),
+  ]
+  const [selectedTeam, setSelectedTeam] = useState(
+    uniqueTeams.length > 0 ? uniqueTeams[0] : '',
+  )
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen)
+  const handleTeamChange = (event) => {
+    const team = event.target.value
+    setSelectedTeam(team)
+    onTeamSelect(team)
   }
 
   return (
@@ -36,27 +50,16 @@ export default function InclusionScoreNav({ teamName }) {
               marginRight: '5px',
             }}
           />
-          <span>Team {teamName}</span>
+          <span>{selectedTeam || teamName}</span>
         </div>
         <div className={styles.dropdown}>
-          <button onClick={toggleDropdown} className={styles.button}>
-            <div>Team {teamName}</div>
-            <div>
-              <Image
-                src="/images/arrow-down-s-line.svg"
-                alt="Arrow down icon"
-                width={8}
-                height={8}
-              />
-            </div>
-          </button>
-          {isDropdownOpen && (
-            <div className={styles.dropdownContent}>
-              {/* <p>Team {teamName}</p>
-              <p>Team {teamName}</p>
-              <p>Team {teamName}</p> */}
-            </div>
-          )}
+          <select value={selectedTeam} onChange={handleTeamChange}>
+            {uniqueTeams.map((team, index) => (
+              <option key={index} value={team}>
+                {team}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
     </div>
