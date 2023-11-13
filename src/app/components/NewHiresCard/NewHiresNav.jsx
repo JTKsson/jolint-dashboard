@@ -7,7 +7,7 @@ export default function NewHiresNav(props) {
   return (
     <nav className={styles.nav}>
       <div className={styles.title}>
-        <h1>Inclusion of new-hires</h1>
+        <h2>Inclusion of new-hires</h2>
       </div>
       <div className={styles.navItems}>
         <div className={styles.legend}>

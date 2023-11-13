@@ -75,7 +75,7 @@ export default function DifferencesCardChart({ data }) {
       <ResponsiveContainer width="100%" height={250}>
         <BarChart
           data={plotData}
-          margin={{ top: 0, right: 10, left: -38, bottom: -7 }}
+          margin={{ top: 0, right: -1, left: -42, bottom: -15 }}
         >
           <XAxis
             dataKey="metric"
