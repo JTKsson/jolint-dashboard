@@ -211,7 +211,7 @@ export default function NewHiresChart() {
                 dataKey="36-45"
                 name={'36-45'}
                 stroke="var(--c-orange)"
-                fill="url(#orange)"
+                fill="url(#bleachedalmond)"
                 strokeWidth={2.3}
               />
               <Area
